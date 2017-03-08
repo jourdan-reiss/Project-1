@@ -10,6 +10,8 @@ public class LineManager : MonoBehaviour {
 	public int maxLines;
 	public GameObject RegularLine;
 	public GameObject BiggerLine;
+	public GameObject WavyLine;
+	public GameObject BiggerBumpyLine;
 
 	void Start () 
 	{
@@ -33,10 +35,13 @@ public class LineManager : MonoBehaviour {
 		float spawnSeed = Random.value;
 		if (spawnSeed < 0.5f)
 			lineToSpawn = BiggerLine;
-		else
+		else if (spawnSeed < 0.8f)
 			lineToSpawn = RegularLine;
+		else
+			lineToSpawn = WavyLine;
 
-		return Instantiate (lineToSpawn, spawnPosition, Quaternion.identity) as GameObject;// makes sure to instantate the next line explicitly as a gameobject
+		return Instantiate (lineToSpawn, spawnPosition, Quaternion.identity) as GameObject;//see below;
+		// makes sure to instantate the next line explicitly as a gameobject
 
 	}
 
