@@ -24,10 +24,11 @@ public class GameManager : MonoBehaviour {
 
 
 	private Wave currentWave; //gets a reference to the Wave class, which our wave parent prefab uses
-
 	
-	void Update () 
+	void Update ()
 	{
+
+
 		pointerPosition = Input.mousePosition;
 		/*This is a three-stage process which checks for each stage of a button press and does specific things
 		 *at each phase. First, it calls the Wave Prepare method, which instantiates the outline as a gameobject.

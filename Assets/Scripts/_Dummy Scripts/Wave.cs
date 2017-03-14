@@ -25,11 +25,11 @@ public class Wave : MonoBehaviour {
 	public void Attach ()
 	{
 		RaycastHit2D checkIfWaveHit = Physics2D.Raycast (wave.transform.position, Vector2.down, Mathf.Infinity, lineMask);
-		 
+		 //showots a ray directly downwards from the wave object to check if it hits a line.
 		if (checkIfWaveHit.collider != null)
 		{
 			Debug.Log (checkIfWaveHit.collider.gameObject.name); 
-			transform.SetParent (checkIfWaveHit.collider.transform); 
+			transform.SetParent (checkIfWaveHit.collider.transform); //the wave then becomes a child of the line.
 		}
 	}
 }

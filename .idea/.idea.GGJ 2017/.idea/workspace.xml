@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80edf105-da9e-4250-9683-fb62d67ff0a6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/HazardGenerator.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/HazardGenerator.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/LineManager.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/LineManager.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Movement.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Wave.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/Wave.cs.meta" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.GGJ 2017/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ 2017/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/BiggerLine.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lines/BiggerLine.prefab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/RegularLine.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lines/RegularLine.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/WavyLine.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lines/WavyLine.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Test Objects/TestParent.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Test Objects/TestParent.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Waves/TempWave.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Waves/TempWave.prefab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/LineManager.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/LineManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Wave.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Wave.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/_scenes/Surfer Bro.unity" afterPath="$PROJECT_DIR$/Assets/_scenes/Surfer Bro.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,78 +40,66 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Movement.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding>
-                <marker date="1489166019000" expanded="true" signature="6:79" ph="..." />
-                <marker date="1489166019000" expanded="true" signature="122:2203" ph="{...}" />
-                <marker date="1489166019000" expanded="true" signature="128:565" ph="/* THIS GAMEMANAGER SCRIPT WILL DEAL WITH: ... */" />
-                <marker date="1489166019000" expanded="true" signature="780:1681" ph="{...}" />
-                <marker date="1489166019000" expanded="true" signature="827:1233" ph="/* This is a three-stage process which checks for each stage of a button press and does specific things ... */" />
-                <marker date="1489166019000" expanded="true" signature="1323:1533" ph="{...}" />
-                <marker date="1489166019000" expanded="true" signature="1568:1630" ph="{...}" />
-                <marker date="1489166019000" expanded="true" signature="1708:1941" ph="{...}" />
-                <marker date="1489166019000" expanded="true" signature="1963:2146" ph="{...}" />
-                <marker date="1489166019000" expanded="true" signature="2164:2201" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LineManager.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/LineManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <marker date="1489418631000" expanded="true" signature="6:78" ph="..." />
-                <marker date="1489418631000" expanded="true" signature="164:2127" ph="{...}" />
-                <marker date="1489418631000" expanded="true" signature="394:462" ph="/* public GameObject WavyLine; ... */" />
-                <marker date="1489418631000" expanded="true" signature="479:697" ph="{...}" />
-                <marker date="1489418631000" expanded="true" signature="743:1084" ph="{...}" />
-                <marker date="1489418631000" expanded="true" signature="1138:1398" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
-                <marker date="1489418631000" expanded="true" signature="1398:1730" ph="{...}" />
-                <marker date="1489418631000" expanded="true" signature="1751:2125" ph="{...}" />
-                <marker date="1489418631000" expanded="true" signature="1830:2122" ph="{...}" />
-                <marker date="1489418631000" expanded="true" signature="1875:2029" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HazardGenerator.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HazardGenerator.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="102" lean-forward="false" selection-start-line="19" selection-start-column="102" selection-end-line="19" selection-end-column="102" />
-              <folding>
-                <marker date="1489418631000" expanded="true" signature="6:44" ph="..." />
-                <marker date="1489418631000" expanded="true" signature="90:537" ph="{...}" />
-                <marker date="1489418631000" expanded="true" signature="216:531" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GGJ 2017.sln" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GGJ 2017.sln">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+              <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="37" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Line.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/Line.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <marker date="1489511757000" expanded="true" signature="6:44" ph="..." />
+                <marker date="1489511757000" expanded="true" signature="78:276" ph="{...}" />
+                <marker date="1489511757000" expanded="true" signature="177:274" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HazardGenerator.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/HazardGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="27" />
+              <folding>
+                <marker date="1489517875000" expanded="true" signature="6:44" ph="..." />
+                <marker date="1489517875000" expanded="true" signature="90:378" ph="{...}" />
+                <marker date="1489517875000" expanded="true" signature="223:376" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LineManager.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/_Passive/LineManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+              <folding>
+                <marker date="1489517875000" expanded="true" signature="6:155" ph="..." />
+                <marker date="1489517875000" expanded="true" signature="199:3646" ph="{...}" />
+                <marker date="1489517875000" expanded="true" signature="589:958" ph="{...}" />
+                <marker date="1489517875000" expanded="true" signature="997:1224" ph="{...}" />
+                <marker date="1489517875000" expanded="true" signature="1231:1438" ph="/* this coroutine will run a RNG which will either: instantiate our hazard objects, our collectibles or nothing, ... */" />
+                <marker date="1489517875000" expanded="true" signature="1478:2187" ph="{...}" />
+                <marker date="1489517875000" expanded="true" signature="1518:2181" ph="{...}" />
+                <marker date="1489517875000" expanded="true" signature="1634:1776" ph="{...}" />
+                <marker date="1489517875000" expanded="true" signature="1856:2103" ph="{...}" />
+                <marker date="1489517875000" expanded="true" signature="2234:2575" ph="{...}" />
+                <marker date="1489517875000" expanded="true" signature="2629:2888" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
+                <marker date="1489517875000" expanded="true" signature="2889:3249" ph="{...}" />
+                <marker date="1489517875000" expanded="true" signature="3270:3644" ph="{...}" />
+                <marker date="1489517875000" expanded="true" signature="3349:3641" ph="{...}" />
+                <marker date="1489517875000" expanded="true" signature="3394:3548" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,8 +112,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/LineManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Wave.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HazardGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Lines.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LineManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Line.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/Line.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/HazardGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_Passive/LineManager.cs" />
       </list>
     </option>
   </component>
@@ -220,12 +220,12 @@
       <workItem from="1489405622637" duration="913000" />
       <workItem from="1489407836594" duration="3171000" />
       <workItem from="1489418736496" duration="304000" />
-      <workItem from="1489419127239" duration="900000" />
+      <workItem from="1489419127239" duration="18091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5288000" />
+    <option name="totallyTimeSpent" value="22479000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -240,28 +240,28 @@
     <frame x="4" y="23" width="1436" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18314764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18314764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -284,18 +284,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1065">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <marker date="1489166019000" expanded="true" signature="6:79" ph="..." />
-            <marker date="1489166019000" expanded="true" signature="122:2203" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="128:565" ph="/* THIS GAMEMANAGER SCRIPT WILL DEAL WITH: ... */" />
-            <marker date="1489166019000" expanded="true" signature="780:1681" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="827:1233" ph="/* This is a three-stage process which checks for each stage of a button press and does specific things ... */" />
-            <marker date="1489166019000" expanded="true" signature="1323:1533" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="1568:1630" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="1708:1941" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="1963:2146" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="2164:2201" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -303,18 +292,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="115" lean-forward="false" selection-start-line="32" selection-start-column="115" selection-end-line="32" selection-end-column="115" />
-          <folding>
-            <marker date="1489418631000" expanded="true" signature="6:78" ph="..." />
-            <marker date="1489418631000" expanded="true" signature="164:2127" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="394:462" ph="/* public GameObject WavyLine; ... */" />
-            <marker date="1489418631000" expanded="true" signature="479:697" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="743:1084" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="1138:1398" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
-            <marker date="1489418631000" expanded="true" signature="1398:1730" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="1751:2125" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="1830:2122" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="1875:2029" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -322,11 +300,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="102" lean-forward="false" selection-start-line="19" selection-start-column="102" selection-end-line="19" selection-end-column="102" />
-          <folding>
-            <marker date="1489418631000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1489418631000" expanded="true" signature="90:537" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="216:531" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -350,18 +324,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1065">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <marker date="1489166019000" expanded="true" signature="6:79" ph="..." />
-            <marker date="1489166019000" expanded="true" signature="122:2203" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="128:565" ph="/* THIS GAMEMANAGER SCRIPT WILL DEAL WITH: ... */" />
-            <marker date="1489166019000" expanded="true" signature="780:1681" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="827:1233" ph="/* This is a three-stage process which checks for each stage of a button press and does specific things ... */" />
-            <marker date="1489166019000" expanded="true" signature="1323:1533" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="1568:1630" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="1708:1941" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="1963:2146" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="2164:2201" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -369,18 +332,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="115" lean-forward="false" selection-start-line="32" selection-start-column="115" selection-end-line="32" selection-end-column="115" />
-          <folding>
-            <marker date="1489418631000" expanded="true" signature="6:78" ph="..." />
-            <marker date="1489418631000" expanded="true" signature="164:2127" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="394:462" ph="/* public GameObject WavyLine; ... */" />
-            <marker date="1489418631000" expanded="true" signature="479:697" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="743:1084" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="1138:1398" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
-            <marker date="1489418631000" expanded="true" signature="1398:1730" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="1751:2125" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="1830:2122" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="1875:2029" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -396,11 +348,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="102" lean-forward="false" selection-start-line="19" selection-start-column="102" selection-end-line="19" selection-end-column="102" />
-          <folding>
-            <marker date="1489418631000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1489418631000" expanded="true" signature="90:537" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="216:531" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -416,18 +364,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-          <folding>
-            <marker date="1489166019000" expanded="true" signature="6:79" ph="..." />
-            <marker date="1489166019000" expanded="true" signature="122:2203" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="128:565" ph="/* THIS GAMEMANAGER SCRIPT WILL DEAL WITH: ... */" />
-            <marker date="1489166019000" expanded="true" signature="780:1681" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="827:1233" ph="/* This is a three-stage process which checks for each stage of a button press and does specific things ... */" />
-            <marker date="1489166019000" expanded="true" signature="1323:1533" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="1568:1630" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="1708:1941" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="1963:2146" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="2164:2201" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -435,18 +372,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1489418631000" expanded="true" signature="6:78" ph="..." />
-            <marker date="1489418631000" expanded="true" signature="164:2127" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="394:462" ph="/* public GameObject WavyLine; ... */" />
-            <marker date="1489418631000" expanded="true" signature="479:697" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="743:1084" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="1138:1398" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
-            <marker date="1489418631000" expanded="true" signature="1398:1730" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="1751:2125" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="1830:2122" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="1875:2029" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -458,60 +384,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GGJ 2017.sln">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+        <state relative-caret-position="23">
+          <caret line="25" column="101" lean-forward="false" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Wave.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <marker date="1489166019000" expanded="true" signature="6:79" ph="..." />
-            <marker date="1489166019000" expanded="true" signature="122:2203" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="128:565" ph="/* THIS GAMEMANAGER SCRIPT WILL DEAL WITH: ... */" />
-            <marker date="1489166019000" expanded="true" signature="780:1681" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="827:1233" ph="/* This is a three-stage process which checks for each stage of a button press and does specific things ... */" />
-            <marker date="1489166019000" expanded="true" signature="1323:1533" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="1568:1630" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="1708:1941" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="1963:2146" ph="{...}" />
-            <marker date="1489166019000" expanded="true" signature="2164:2201" ph="{...}" />
-          </folding>
+        <state relative-caret-position="44">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Lines.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LineManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <marker date="1489418631000" expanded="true" signature="6:78" ph="..." />
-            <marker date="1489418631000" expanded="true" signature="164:2127" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="394:462" ph="/* public GameObject WavyLine; ... */" />
-            <marker date="1489418631000" expanded="true" signature="479:697" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="743:1084" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="1138:1398" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
-            <marker date="1489418631000" expanded="true" signature="1398:1730" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="1751:2125" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="1830:2122" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="1875:2029" ph="{...}" />
-          </folding>
+        <state relative-caret-position="215">
+          <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HazardGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="102" lean-forward="false" selection-start-line="19" selection-start-column="102" selection-end-line="19" selection-end-column="102" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Line.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/Line.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <marker date="1489418631000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1489418631000" expanded="true" signature="90:537" ph="{...}" />
-            <marker date="1489418631000" expanded="true" signature="216:531" ph="{...}" />
+            <marker date="1489511757000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1489511757000" expanded="true" signature="78:276" ph="{...}" />
+            <marker date="1489511757000" expanded="true" signature="177:274" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/HazardGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <marker date="1489517875000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1489517875000" expanded="true" signature="90:378" ph="{...}" />
+            <marker date="1489517875000" expanded="true" signature="223:376" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GGJ 2017.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/_Passive/LineManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+          <folding>
+            <marker date="1489517875000" expanded="true" signature="6:155" ph="..." />
+            <marker date="1489517875000" expanded="true" signature="199:3646" ph="{...}" />
+            <marker date="1489517875000" expanded="true" signature="589:958" ph="{...}" />
+            <marker date="1489517875000" expanded="true" signature="997:1224" ph="{...}" />
+            <marker date="1489517875000" expanded="true" signature="1231:1438" ph="/* this coroutine will run a RNG which will either: instantiate our hazard objects, our collectibles or nothing, ... */" />
+            <marker date="1489517875000" expanded="true" signature="1478:2187" ph="{...}" />
+            <marker date="1489517875000" expanded="true" signature="1518:2181" ph="{...}" />
+            <marker date="1489517875000" expanded="true" signature="1634:1776" ph="{...}" />
+            <marker date="1489517875000" expanded="true" signature="1856:2103" ph="{...}" />
+            <marker date="1489517875000" expanded="true" signature="2234:2575" ph="{...}" />
+            <marker date="1489517875000" expanded="true" signature="2629:2888" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
+            <marker date="1489517875000" expanded="true" signature="2889:3249" ph="{...}" />
+            <marker date="1489517875000" expanded="true" signature="3270:3644" ph="{...}" />
+            <marker date="1489517875000" expanded="true" signature="3349:3641" ph="{...}" />
+            <marker date="1489517875000" expanded="true" signature="3394:3548" ph="{...}" />
           </folding>
         </state>
       </provider>
