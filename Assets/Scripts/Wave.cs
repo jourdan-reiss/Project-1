@@ -5,6 +5,7 @@ public class Wave : MonoBehaviour {
 
 	public GameObject wave;
 	public GameObject outline; 
+	public LayerMask lineMask;
 
 
 	public void SetOutline ()
@@ -12,6 +13,8 @@ public class Wave : MonoBehaviour {
 		wave.SetActive (false);
 		outline.SetActive (true);
 	}
+
+	//Turns the outline and solid wave objects on and off. Both cannot be on at the same time.
 
 	public void SetSolid ()
 	{
@@ -21,5 +24,12 @@ public class Wave : MonoBehaviour {
 
 	public void Attach ()
 	{
+		RaycastHit2D checkIfWaveHit = Physics2D.Raycast (wave.transform.position, Vector2.down, Mathf.Infinity, lineMask);
+		 
+		if (checkIfWaveHit.collider != null)
+		{
+			Debug.Log (checkIfWaveHit.collider.gameObject.name); 
+			transform.SetParent (checkIfWaveHit.collider.transform); 
+		}
 	}
 }

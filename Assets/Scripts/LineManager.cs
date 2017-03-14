@@ -10,8 +10,8 @@ public class LineManager : MonoBehaviour {
 	public int maxLines;
 	public GameObject RegularLine;
 	public GameObject BiggerLine;
-	public GameObject WavyLine;
-	public GameObject BiggerBumpyLine;
+//	public GameObject WavyLine;
+//	public GameObject BiggerBumpyLine;
 
 	void Start () 
 	{
@@ -29,16 +29,16 @@ public class LineManager : MonoBehaviour {
 		Management (); //immediately calls management method to check number of elements in list
 	}
 
-	GameObject RandomLineSpawn (Vector3 spawnPosition)
+	GameObject RandomLineSpawn (Vector3 spawnPosition) //Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we can
+	                                                   //instantiate our game object at a position specified above in our OnTriggerEnter2D method.
 	{
 		GameObject lineToSpawn;
 		float spawnSeed = Random.value;
 		if (spawnSeed < 0.5f)
 			lineToSpawn = BiggerLine;
-		else if (spawnSeed < 0.8f)
+		else  
 			lineToSpawn = RegularLine;
-		else
-			lineToSpawn = WavyLine;
+		
 
 		return Instantiate (lineToSpawn, spawnPosition, Quaternion.identity) as GameObject;//see below;
 		// makes sure to instantate the next line explicitly as a gameobject
