@@ -8,7 +8,6 @@ public class GameManager : MonoBehaviour {
 
 	/* THIS GAMEMANAGER SCRIPT WILL DEAL WITH:
 	   - COMMUNICATING WITH THE WAVE CLASS AND INSTANTIATING WAVES (done)
-	   - COMMUNICATING WITH THE HAZARD CLASS AND INSTANTIATING HAZARDS
 	   - COMMUNICATING WITH THE SCOREMANAGER
 	   - GAME OVER AND RESTARTS 
 
@@ -16,19 +15,19 @@ public class GameManager : MonoBehaviour {
 		THIS CLASS ALSO WILL DEAL WITH THE INITIAL PHASE OF INSTANTIAING WAVES DUE TO CONVERTING THE POINTER TO A POINT IN WORLDSPACE.
 	*/
 
-
-
-	private Vector2 pointerPosition;
 	public GameObject wavePrefab;
 	public GameObject thing;
+    private bool _gameOver = false;
+
+    private Player player;
+	private Vector2 pointerPosition;
+    private LineManager _lineManager;
 
 
 	private Wave currentWave; //gets a reference to the Wave class, which our wave parent prefab uses
 	
 	void Update ()
 	{
-
-
 		pointerPosition = Input.mousePosition;
 		/*This is a three-stage process which checks for each stage of a button press and does specific things
 		 *at each phase. First, it calls the Wave Prepare method, which instantiates the outline as a gameobject.
@@ -57,7 +56,14 @@ public class GameManager : MonoBehaviour {
 		return Camera.main.ScreenToWorldPoint (new Vector3 (pointerPosition.x,pointerPosition.y , 10f)); //screen to worldpoint is a method called directly from the main camera, converting pixel 2D co-ordinates into 3D co-ordinates.
 	}
 
-	void WavePrepare ()
+
+    //trying to figure out if collision detection happens here or in Hazards
+    public void PlayerHasBeenHit()
+    {
+
+    }
+
+    void WavePrepare ()
 	{
 		
 		GameObject prep = Instantiate (wavePrefab, WorldPosition (), Quaternion.identity) as GameObject;
@@ -69,4 +75,12 @@ public class GameManager : MonoBehaviour {
 	{
 			SceneManager.LoadScene (0);
 	}
+
+
+    //new method, will deal with the game over state and stopping coroutines.
+    void GameOver()
+    {
+        Debug.Log("Game Over");
+        _lineManager.EndSpawning();
+    }
 }

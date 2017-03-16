@@ -90,7 +90,12 @@ public class LineManager : MonoBehaviour {
 
 	}
 
-	void Management ()
+    public void EndSpawning()
+    {
+        StopCoroutine(HazardAttach());
+    }
+
+    void Management ()
 	{
 		int difference = Lines.Count - maxLines;
 
