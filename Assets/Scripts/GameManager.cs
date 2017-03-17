@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using _Passive;
 
 public class GameManager : MonoBehaviour {
 
@@ -25,8 +26,14 @@ public class GameManager : MonoBehaviour {
 
 
 	private Wave currentWave; //gets a reference to the Wave class, which our wave parent prefab uses
-	
-	void Update ()
+
+    private void Start()
+    {
+        _lineManager = FindObjectOfType<LineManager>();
+    }
+
+
+    void Update ()
 	{
 		pointerPosition = Input.mousePosition;
 		/*This is a three-stage process which checks for each stage of a button press and does specific things
@@ -60,6 +67,10 @@ public class GameManager : MonoBehaviour {
     //trying to figure out if collision detection happens here or in Hazards
     public void PlayerHasBeenHit()
     {
+        Debug.Log("Changing boolean...");
+        _gameOver = true;
+        GameOver();
+        _lineManager.EndSpawning();
 
     }
 
@@ -80,7 +91,7 @@ public class GameManager : MonoBehaviour {
     //new method, will deal with the game over state and stopping coroutines.
     void GameOver()
     {
-        Debug.Log("Game Over");
-        _lineManager.EndSpawning();
+        if (_gameOver)
+            Debug.Log("...Game Over");
     }
 }

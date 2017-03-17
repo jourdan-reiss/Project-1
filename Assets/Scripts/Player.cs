@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
 -play set animations (Phase II)
 
 */
+    public float speed;
+
     private Rigidbody2D _playerRigidbody;
 
     private int _damage = 1;
@@ -20,9 +22,17 @@ public class Player : MonoBehaviour
         _playerRigidbody = GetComponent<Rigidbody2D>();
     }
 
-public void KnockedOff()
+    private void FixedUpdate()
+    {
+        _playerRigidbody.AddForce(Vector2.right*speed);
+    }
+
+    public void KnockedOff()
     {
         _isThePlayerStillAlive = false;
-
+        if (!_isThePlayerStillAlive)
+        {
+            Debug.Log("Player should be knocked off, we'll play an animation.");
+        }
     }
 }
