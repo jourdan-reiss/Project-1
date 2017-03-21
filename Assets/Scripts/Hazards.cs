@@ -11,7 +11,7 @@ public class Hazards : MonoBehaviour
 This will eventually inherit from a general class called "Interactables"
  */
 
-    public float speed;
+//    public float speed;
 
     private Player player;
     private GameManager gameManager;
@@ -23,10 +23,7 @@ This will eventually inherit from a general class called "Interactables"
         hazardRigidbody = GetComponent<Rigidbody2D>();
     }
 
-    private void FixedUpdate()
-    {
-         hazardRigidbody.AddForce(Vector2.left*speed);
-    }
+
 
     private void OnCollisionEnter2D(Collision2D coll)
     {
@@ -40,7 +37,7 @@ This will eventually inherit from a general class called "Interactables"
 
             player.KnockedOff();
 
-            gameManager.PlayerHasBeenHit();
+//            gameManager.PlayerHasBeenHit();
 
            Destroy(gameObject);
 

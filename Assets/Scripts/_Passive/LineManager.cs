@@ -9,9 +9,10 @@ namespace _Passive
     {
 
         private List<GameObject> Lines; //create a list of my lines (more versatile than arrays),
-        //angled brackets denote type of list.
+                                        //angled brackets denote type of list.
 
         public int maxLines;
+        public float initialSpawnTimer = 2f;
         public GameObject RegularLine;
         public GameObject BiggerLine;
 
@@ -30,14 +31,12 @@ namespace _Passive
             GameObject firstLine = Instantiate(BiggerLine); //makes sure that there is always a large line at start.
             Lines.Add(firstLine); //adds it immediately to the list of lines.
             lastLine = firstLine;
-           hazardcoroutine = StartCoroutine(HazardAttach());
         }
 
         private float GetRandomInterval()
         {
-            return
-                Random.Range(1f, 5f); //this is a random time interval which we will use to create a loop via coroutine.
-            //below, you can see the coroutine it will be used in.
+            return Random.Range(1f, 5f); //this is a random time interval which we will use to create a loop via coroutine.
+                                         //below, you can see the coroutine it will be used in.
         }
 
 
@@ -57,9 +56,9 @@ namespace _Passive
                 Debug.Log("This is a test.");
                 if (foundHazard == false)
                 {
-                    GameObject newObstacle = _upcomingHazard.Spawning(lastLine.GetComponent<Line>().Midpoint());
+//                    GameObject newObstacle = _upcomingHazard.Spawning(lastLine.GetComponent<Line>().Midpoint());
 //                    newObstacle.transform.SetParent(lastLine.transform);
-                    Debug.Log(newObstacle);
+                    Debug.Log("whatever");
 
                 }
 
@@ -76,6 +75,8 @@ namespace _Passive
             GameObject nextLine = RandomLineSpawn(Endpoint);
             Lines.Add(nextLine); //adds a reference of that new line to our list
             Management(); //immediately calls management method to check number of elements in list
+            _upcomingHazard.WhatAreWeSpawning();
+            _upcomingHazard.Spawning(nextLine.GetComponent<Line>().Midpoint());
         }
 
         GameObject RandomLineSpawn(Vector3 spawnPosition) //Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we can
@@ -96,7 +97,9 @@ namespace _Passive
         public void EndSpawning()
         {
             Debug.Log("...ending hazard spawning...");
-            StopCoroutine(hazardcoroutine);
+/*
+           hazardcoroutine StopCoroutine(hazardcoroutine);
+*/
         }
 
         void Management()

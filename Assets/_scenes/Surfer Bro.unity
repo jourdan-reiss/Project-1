@@ -231,6 +231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxLines: 6
+  initialSpawnTimer: 2
   RegularLine: {fileID: 1000010988131952, guid: 8a8e505acec5c4078b78b70ce968de2b,
     type: 2}
   BiggerLine: {fileID: 1000012314209914, guid: 4cc3a478085b44087a662d2a7c4e807f, type: 2}
@@ -245,6 +246,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a139f2ad24994c9ebb2aa072bb8db92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  listOfObstacles:
+  - {fileID: 1000012398854304, guid: e2eb3aebce1a747a181d49a4502583c9, type: 2}
+  - {fileID: 1000012581778196, guid: f5eb4f9ccb85f4286ba82ed4c55a80e1, type: 2}
   Obstacles: {fileID: 1000012398854304, guid: e2eb3aebce1a747a181d49a4502583c9, type: 2}
 --- !u!1 &1670559561 stripped
 GameObject:

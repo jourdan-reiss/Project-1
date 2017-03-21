@@ -51,6 +51,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010454286874}
   - 114: {fileID: 114000012700881626}
+  - 114: {fileID: 114000012428991842}
   m_Layer: 10
   m_Name: TempWaveParent
   m_TagString: Untagged
@@ -184,6 +185,18 @@ PolygonCollider2D:
       - {x: 0.0823856, y: -0.0018863045}
       - {x: -0.36148703, y: -0.0018862486}
       - {x: -0.664412, y: -0.00025719404}
+--- !u!114 &114000012428991842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011145634208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3254f31b2e302447bb7ee3b69fcf6e7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToDestroy: 1
 --- !u!114 &114000012700881626
 MonoBehaviour:
   m_ObjectHideFlags: 1
