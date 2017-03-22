@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Hazards : MonoBehaviour
+public class Hazards : InteractiveObjects
 {
 /* In this class, I want to:
 -handle collision with the player
@@ -11,9 +11,9 @@ public class Hazards : MonoBehaviour
 This will eventually inherit from a general class called "Interactables"
  */
 
-//    public float speed;
+//------------------Code-------------------------------//
 
-    private Player player;
+   /* private Player player;
     private GameManager gameManager;
     private Rigidbody2D hazardRigidbody;
 
@@ -37,11 +37,17 @@ This will eventually inherit from a general class called "Interactables"
 
             player.KnockedOff();
 
-//            gameManager.PlayerHasBeenHit();
 
            Destroy(gameObject);
 
         }
 
+    }*/
+    private Player player;
+
+    protected override void OnCollisionEnter2D(Collision2D coll)
+    {
+        player = coll.gameObject.GetComponent<Player>();
+        player.KnockedOff();
     }
 }

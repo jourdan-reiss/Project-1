@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;//needed for generic classes such as Lists
-using UnityEngine.SceneManagement;
 
 namespace _Passive
 {

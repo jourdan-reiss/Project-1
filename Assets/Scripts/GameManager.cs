@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour {
         Debug.Log("Changing boolean...");
         _gameOver = true;
         GameOver();
-//        _lineManager.EndSpawning();
+
 
     }
 
