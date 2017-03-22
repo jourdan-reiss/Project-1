@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80edf105-da9e-4250-9683-fb62d67ff0a6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.GGJ 2017/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ 2017/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/BiggerLine.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lines/BiggerLine.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/RegularLine.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lines/RegularLine.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Test Objects/TempWaveParent.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Test Objects/TempWaveParent.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Test Objects/Test Hazard.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Test Objects/Test Hazard.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Hazards.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Hazards.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/DestroyByTime.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/DestroyByTime.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/HazardGenerator.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/HazardGenerator.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/_Passive/LineManager.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/_Passive/LineManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/_scenes/Surfer Bro.unity" afterPath="$PROJECT_DIR$/Assets/_scenes/Surfer Bro.unity" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,63 +55,60 @@
       <file leaf-file-name="HazardGenerator.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/HazardGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+            <state relative-caret-position="330">
+              <caret line="22" column="81" lean-forward="false" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
               <folding>
-                <marker date="1490109823000" expanded="true" signature="6:44" ph="..." />
-                <marker date="1490109823000" expanded="true" signature="90:1050" ph="{...}" />
-                <marker date="1490109823000" expanded="true" signature="248:705" ph="{...}" />
-                <marker date="1490109823000" expanded="true" signature="398:451" ph="{...}" />
-                <marker date="1490109823000" expanded="true" signature="495:561" ph="{...}" />
-                <marker date="1490109823000" expanded="true" signature="604:670" ph="{...}" />
-                <marker date="1490109823000" expanded="true" signature="760:1048" ph="{...}" />
-                <marker date="1490109823000" expanded="true" signature="851:1004" ph="{...}" />
+                <marker date="1490192487000" expanded="true" signature="6:44" ph="..." />
+                <marker date="1490192487000" expanded="true" signature="90:1614" ph="{...}" />
+                <marker date="1490192487000" expanded="true" signature="98:451" ph="/* This class is responsible for spawning all 'hazards'. ... */" />
+                <marker date="1490192487000" expanded="true" signature="729:1269" ph="{...}" />
+                <marker date="1490192487000" expanded="true" signature="962:1015" ph="{...}" />
+                <marker date="1490192487000" expanded="true" signature="1059:1125" ph="{...}" />
+                <marker date="1490192487000" expanded="true" signature="1168:1234" ph="{...}" />
+                <marker date="1490192487000" expanded="true" signature="1324:1612" ph="{...}" />
+                <marker date="1490192487000" expanded="true" signature="1415:1568" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DestroyByTime.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DestroyByTime.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroyByTime.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state relative-caret-position="360">
+              <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
-                <marker date="1490115074000" expanded="true" signature="6:44" ph="..." />
-                <marker date="1490115074000" expanded="true" signature="88:565" ph="{...}" />
-                <marker date="1490115074000" expanded="true" signature="221:288" ph="{...}" />
-                <marker date="1490115074000" expanded="true" signature="315:391" ph="{...}" />
-                <marker date="1490115074000" expanded="true" signature="430:563" ph="{...}" />
+                <marker date="1490191059000" expanded="true" signature="6:44" ph="..." />
+                <marker date="1490191059000" expanded="true" signature="88:972" ph="{...}" />
+                <marker date="1490191059000" expanded="true" signature="95:472" ph="/* This is a basic class which will be attached to any gameobject which has a finite lifetime. ... */" />
+                <marker date="1490191059000" expanded="true" signature="644:696" ph="{...}" />
+                <marker date="1490191059000" expanded="true" signature="723:797" ph="{...}" />
+                <marker date="1490191059000" expanded="true" signature="836:970" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LineManager.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LineManager.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/_Passive/LineManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
-              <caret line="99" column="2" lean-forward="false" selection-start-line="99" selection-start-column="2" selection-end-line="99" selection-end-column="2" />
+            <state relative-caret-position="421">
+              <caret line="105" column="0" lean-forward="false" selection-start-line="98" selection-start-column="10" selection-end-line="105" selection-end-column="0" />
               <folding>
-                <marker date="1490113135000" expanded="true" signature="6:155" ph="..." />
-                <marker date="1490113135000" expanded="true" signature="175:4615" ph="{...}" />
-                <marker date="1490113135000" expanded="true" signature="222:4613" ph="{...}" />
-                <marker date="1490113135000" expanded="true" signature="782:1139" ph="{...}" />
-                <marker date="1490113135000" expanded="true" signature="1182:1422" ph="{...}" />
-                <marker date="1490113135000" expanded="true" signature="1433:1644" ph="/* this coroutine will run a RNG which will either: instantiate our hazard objects, our collectibles or nothing, ... */" />
-                <marker date="1490113135000" expanded="true" signature="1688:2515" ph="{...}" />
-                <marker date="1490113135000" expanded="true" signature="1736:2505" ph="{...}" />
-                <marker date="1490113135000" expanded="true" signature="1864:2022" ph="{...}" />
-                <marker date="1490113135000" expanded="true" signature="2110:2380" ph="{...}" />
-                <marker date="1490113135000" expanded="true" signature="2129:2318" ph="/* GameObject newObstacle = _upcomingHazard.Spawning(lastLine.GetComponent&lt;Line&gt;().Midpoint()); ... */" />
-                <marker date="1490113135000" expanded="true" signature="2565:3086" ph="{...}" />
-                <marker date="1490113135000" expanded="true" signature="3146:3412" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
-                <marker date="1490113135000" expanded="true" signature="3412:3860" ph="{...}" />
-                <marker date="1490113135000" expanded="true" signature="3895:4035" ph="{...}" />
-                <marker date="1490113135000" expanded="true" signature="3961:4025" ph="/* hazardcoroutine StopCoroutine(hazardcoroutine); ... */" />
-                <marker date="1490113135000" expanded="true" signature="4062:4607" ph="{...}" />
-                <marker date="1490113135000" expanded="true" signature="4167:4597" ph="{...}" />
-                <marker date="1490113135000" expanded="true" signature="4234:4482" ph="{...}" />
+                <marker date="1490192487000" expanded="true" signature="6:155" ph="..." />
+                <marker date="1490192487000" expanded="true" signature="175:4718" ph="{...}" />
+                <marker date="1490192487000" expanded="true" signature="222:4716" ph="{...}" />
+                <marker date="1490192487000" expanded="true" signature="782:1139" ph="{...}" />
+                <marker date="1490192487000" expanded="true" signature="1182:1422" ph="{...}" />
+                <marker date="1490192487000" expanded="true" signature="1433:2604" ph="/* this coroutine will run a RNG which will either: instantiate our hazard objects, our collectibles or nothing, ... */" />
+                <marker date="1490192487000" expanded="true" signature="2654:3175" ph="{...}" />
+                <marker date="1490192487000" expanded="true" signature="3235:3501" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
+                <marker date="1490192487000" expanded="true" signature="3501:3949" ph="{...}" />
+                <marker date="1490192487000" expanded="true" signature="3951:4055" ph="/* public void EndSpawning() ... */" />
+                <marker date="1490192487000" expanded="true" signature="4056:4138" ph="/// hazardcoroutine StopCoroutine(hazardcoroutine); ... " />
+                <marker date="1490192487000" expanded="true" signature="4165:4710" ph="{...}" />
+                <marker date="1490192487000" expanded="true" signature="4270:4700" ph="{...}" />
+                <marker date="1490192487000" expanded="true" signature="4337:4585" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -161,8 +150,8 @@
       <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="72" column="37" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="37" />
+            <state relative-caret-position="481">
+              <caret line="84" column="19" lean-forward="true" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
               <folding>
                 <marker date="1490113576000" expanded="true" signature="6:95" ph="..." />
                 <marker date="1490113576000" expanded="true" signature="138:2776" ph="{...}" />
@@ -214,11 +203,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Line.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/Line.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/HazardGenerator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/_Passive/LineManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Hazards.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyByTime.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/HazardGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_Passive/LineManager.cs" />
       </list>
     </option>
   </component>
@@ -320,12 +309,12 @@
       <workItem from="1489418736496" duration="304000" />
       <workItem from="1489419127239" duration="18311000" />
       <workItem from="1489668617897" duration="19341000" />
-      <workItem from="1490008400481" duration="19006000" />
+      <workItem from="1490008400481" duration="21858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61046000" />
+    <option name="totallyTimeSpent" value="63898000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -399,14 +388,15 @@
         <state relative-caret-position="180">
           <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="27" />
           <folding>
-            <marker date="1490109823000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1490109823000" expanded="true" signature="90:1050" ph="{...}" />
-            <marker date="1490109823000" expanded="true" signature="248:705" ph="{...}" />
-            <marker date="1490109823000" expanded="true" signature="398:451" ph="{...}" />
-            <marker date="1490109823000" expanded="true" signature="495:561" ph="{...}" />
-            <marker date="1490109823000" expanded="true" signature="604:670" ph="{...}" />
-            <marker date="1490109823000" expanded="true" signature="760:1048" ph="{...}" />
-            <marker date="1490109823000" expanded="true" signature="851:1004" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1490192487000" expanded="true" signature="90:1614" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="98:451" ph="/* This class is responsible for spawning all 'hazards'. ... */" />
+            <marker date="1490192487000" expanded="true" signature="729:1269" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="962:1015" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="1059:1125" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="1168:1234" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="1324:1612" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="1415:1568" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -469,25 +459,20 @@
         <state relative-caret-position="165">
           <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding>
-            <marker date="1490113135000" expanded="true" signature="6:155" ph="..." />
-            <marker date="1490113135000" expanded="true" signature="175:4615" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="222:4613" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="782:1139" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="1182:1422" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="1433:1644" ph="/* this coroutine will run a RNG which will either: instantiate our hazard objects, our collectibles or nothing, ... */" />
-            <marker date="1490113135000" expanded="true" signature="1688:2515" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="1736:2505" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="1864:2022" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="2110:2380" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="2129:2318" ph="/* GameObject newObstacle = _upcomingHazard.Spawning(lastLine.GetComponent&lt;Line&gt;().Midpoint()); ... */" />
-            <marker date="1490113135000" expanded="true" signature="2565:3086" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="3146:3412" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
-            <marker date="1490113135000" expanded="true" signature="3412:3860" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="3895:4035" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="3961:4025" ph="/* hazardcoroutine StopCoroutine(hazardcoroutine); ... */" />
-            <marker date="1490113135000" expanded="true" signature="4062:4607" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="4167:4597" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="4234:4482" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="6:155" ph="..." />
+            <marker date="1490192487000" expanded="true" signature="175:4718" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="222:4716" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="782:1139" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="1182:1422" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="1433:2604" ph="/* this coroutine will run a RNG which will either: instantiate our hazard objects, our collectibles or nothing, ... */" />
+            <marker date="1490192487000" expanded="true" signature="2654:3175" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="3235:3501" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
+            <marker date="1490192487000" expanded="true" signature="3501:3949" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="3951:4055" ph="/* public void EndSpawning() ... */" />
+            <marker date="1490192487000" expanded="true" signature="4056:4138" ph="/// hazardcoroutine StopCoroutine(hazardcoroutine); ... " />
+            <marker date="1490192487000" expanded="true" signature="4165:4710" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="4270:4700" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="4337:4585" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -517,14 +502,15 @@
         <state relative-caret-position="180">
           <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="27" />
           <folding>
-            <marker date="1490109823000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1490109823000" expanded="true" signature="90:1050" ph="{...}" />
-            <marker date="1490109823000" expanded="true" signature="248:705" ph="{...}" />
-            <marker date="1490109823000" expanded="true" signature="398:451" ph="{...}" />
-            <marker date="1490109823000" expanded="true" signature="495:561" ph="{...}" />
-            <marker date="1490109823000" expanded="true" signature="604:670" ph="{...}" />
-            <marker date="1490109823000" expanded="true" signature="760:1048" ph="{...}" />
-            <marker date="1490109823000" expanded="true" signature="851:1004" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1490192487000" expanded="true" signature="90:1614" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="98:451" ph="/* This class is responsible for spawning all 'hazards'. ... */" />
+            <marker date="1490192487000" expanded="true" signature="729:1269" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="962:1015" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="1059:1125" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="1168:1234" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="1324:1612" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="1415:1568" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -534,25 +520,20 @@
         <state relative-caret-position="915">
           <caret line="61" column="35" lean-forward="false" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
           <folding>
-            <marker date="1490113135000" expanded="true" signature="6:155" ph="..." />
-            <marker date="1490113135000" expanded="true" signature="175:4615" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="222:4613" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="782:1139" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="1182:1422" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="1433:1644" ph="/* this coroutine will run a RNG which will either: instantiate our hazard objects, our collectibles or nothing, ... */" />
-            <marker date="1490113135000" expanded="true" signature="1688:2515" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="1736:2505" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="1864:2022" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="2110:2380" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="2129:2318" ph="/* GameObject newObstacle = _upcomingHazard.Spawning(lastLine.GetComponent&lt;Line&gt;().Midpoint()); ... */" />
-            <marker date="1490113135000" expanded="true" signature="2565:3086" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="3146:3412" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
-            <marker date="1490113135000" expanded="true" signature="3412:3860" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="3895:4035" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="3961:4025" ph="/* hazardcoroutine StopCoroutine(hazardcoroutine); ... */" />
-            <marker date="1490113135000" expanded="true" signature="4062:4607" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="4167:4597" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="4234:4482" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="6:155" ph="..." />
+            <marker date="1490192487000" expanded="true" signature="175:4718" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="222:4716" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="782:1139" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="1182:1422" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="1433:2604" ph="/* this coroutine will run a RNG which will either: instantiate our hazard objects, our collectibles or nothing, ... */" />
+            <marker date="1490192487000" expanded="true" signature="2654:3175" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="3235:3501" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
+            <marker date="1490192487000" expanded="true" signature="3501:3949" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="3951:4055" ph="/* public void EndSpawning() ... */" />
+            <marker date="1490192487000" expanded="true" signature="4056:4138" ph="/// hazardcoroutine StopCoroutine(hazardcoroutine); ... " />
+            <marker date="1490192487000" expanded="true" signature="4165:4710" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="4270:4700" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="4337:4585" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -673,6 +654,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hazards.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <marker date="1490113672000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1490113672000" expanded="true" signature="82:932" ph="{...}" />
+            <marker date="1490113672000" expanded="true" signature="85:298" ph="/* In this class, I want to: ... */" />
+            <marker date="1490113672000" expanded="true" signature="449:571" ph="{...}" />
+            <marker date="1490113672000" expanded="true" signature="628:930" ph="{...}" />
+            <marker date="1490113672000" expanded="true" signature="686:923" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/HazardGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="81" lean-forward="false" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
+          <folding>
+            <marker date="1490192487000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1490192487000" expanded="true" signature="90:1614" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="98:451" ph="/* This class is responsible for spawning all 'hazards'. ... */" />
+            <marker date="1490192487000" expanded="true" signature="729:1269" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="962:1015" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="1059:1125" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="1168:1234" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="1324:1612" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="1415:1568" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/_Passive/Movement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -704,8 +718,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="72" column="37" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="37" />
+        <state relative-caret-position="481">
+          <caret line="84" column="19" lean-forward="true" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
           <folding>
             <marker date="1490113576000" expanded="true" signature="6:95" ph="..." />
             <marker date="1490113576000" expanded="true" signature="138:2776" ph="{...}" />
@@ -724,76 +738,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hazards.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroyByTime.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
-            <marker date="1490113672000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1490113672000" expanded="true" signature="82:932" ph="{...}" />
-            <marker date="1490113672000" expanded="true" signature="85:298" ph="/* In this class, I want to: ... */" />
-            <marker date="1490113672000" expanded="true" signature="449:571" ph="{...}" />
-            <marker date="1490113672000" expanded="true" signature="628:930" ph="{...}" />
-            <marker date="1490113672000" expanded="true" signature="686:923" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/HazardGenerator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-          <folding>
-            <marker date="1490109823000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1490109823000" expanded="true" signature="90:1050" ph="{...}" />
-            <marker date="1490109823000" expanded="true" signature="248:705" ph="{...}" />
-            <marker date="1490109823000" expanded="true" signature="398:451" ph="{...}" />
-            <marker date="1490109823000" expanded="true" signature="495:561" ph="{...}" />
-            <marker date="1490109823000" expanded="true" signature="604:670" ph="{...}" />
-            <marker date="1490109823000" expanded="true" signature="760:1048" ph="{...}" />
-            <marker date="1490109823000" expanded="true" signature="851:1004" ph="{...}" />
+            <marker date="1490191059000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1490191059000" expanded="true" signature="88:972" ph="{...}" />
+            <marker date="1490191059000" expanded="true" signature="95:472" ph="/* This is a basic class which will be attached to any gameobject which has a finite lifetime. ... */" />
+            <marker date="1490191059000" expanded="true" signature="644:696" ph="{...}" />
+            <marker date="1490191059000" expanded="true" signature="723:797" ph="{...}" />
+            <marker date="1490191059000" expanded="true" signature="836:970" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/_Passive/LineManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="99" column="2" lean-forward="false" selection-start-line="99" selection-start-column="2" selection-end-line="99" selection-end-column="2" />
+        <state relative-caret-position="421">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="98" selection-start-column="10" selection-end-line="105" selection-end-column="0" />
           <folding>
-            <marker date="1490113135000" expanded="true" signature="6:155" ph="..." />
-            <marker date="1490113135000" expanded="true" signature="175:4615" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="222:4613" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="782:1139" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="1182:1422" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="1433:1644" ph="/* this coroutine will run a RNG which will either: instantiate our hazard objects, our collectibles or nothing, ... */" />
-            <marker date="1490113135000" expanded="true" signature="1688:2515" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="1736:2505" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="1864:2022" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="2110:2380" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="2129:2318" ph="/* GameObject newObstacle = _upcomingHazard.Spawning(lastLine.GetComponent&lt;Line&gt;().Midpoint()); ... */" />
-            <marker date="1490113135000" expanded="true" signature="2565:3086" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="3146:3412" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
-            <marker date="1490113135000" expanded="true" signature="3412:3860" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="3895:4035" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="3961:4025" ph="/* hazardcoroutine StopCoroutine(hazardcoroutine); ... */" />
-            <marker date="1490113135000" expanded="true" signature="4062:4607" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="4167:4597" ph="{...}" />
-            <marker date="1490113135000" expanded="true" signature="4234:4482" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroyByTime.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding>
-            <marker date="1490115074000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1490115074000" expanded="true" signature="88:565" ph="{...}" />
-            <marker date="1490115074000" expanded="true" signature="221:288" ph="{...}" />
-            <marker date="1490115074000" expanded="true" signature="315:391" ph="{...}" />
-            <marker date="1490115074000" expanded="true" signature="430:563" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="6:155" ph="..." />
+            <marker date="1490192487000" expanded="true" signature="175:4718" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="222:4716" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="782:1139" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="1182:1422" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="1433:2604" ph="/* this coroutine will run a RNG which will either: instantiate our hazard objects, our collectibles or nothing, ... */" />
+            <marker date="1490192487000" expanded="true" signature="2654:3175" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="3235:3501" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
+            <marker date="1490192487000" expanded="true" signature="3501:3949" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="3951:4055" ph="/* public void EndSpawning() ... */" />
+            <marker date="1490192487000" expanded="true" signature="4056:4138" ph="/// hazardcoroutine StopCoroutine(hazardcoroutine); ... " />
+            <marker date="1490192487000" expanded="true" signature="4165:4710" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="4270:4700" ph="{...}" />
+            <marker date="1490192487000" expanded="true" signature="4337:4585" ph="{...}" />
           </folding>
         </state>
       </provider>

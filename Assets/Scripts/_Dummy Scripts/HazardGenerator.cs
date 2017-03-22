@@ -3,7 +3,15 @@ using System.Collections;
 
 public class HazardGenerator : MonoBehaviour
 {
-    public GameObject[] listOfObstacles;
+
+    /*
+        This class is responsible for spawning all 'hazards'.
+        Initially, the method is called outside of the class, so that the sequence of events is as follows:
+        Line is instatiated; 'WhatAreWeSpawning' makes a decision based on a RNG; if it returns a gameobject,
+         then instantiate an object to spawn at a set position.
+    */
+
+    public GameObject[] listOfObstacles; //an array of gameobjects. There will be four; three hazards that are only aesthetically different, with one collectible
     public GameObject Obstacles;
     private float _hazardSpawnSeed;
 
@@ -12,6 +20,8 @@ public class HazardGenerator : MonoBehaviour
 
     public GameObject WhatAreWeSpawning()
     {
+        //RNG method which returns either nothing or a set object from the array.
+
         GameObject newObstacle = null;
         _hazardSpawnSeed = Random.value;
         if (0f <= _hazardSpawnSeed && _hazardSpawnSeed <= 0.4f)

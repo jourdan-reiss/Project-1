@@ -43,30 +43,32 @@ namespace _Passive
         //this coroutine will run a RNG which will either: instantiate our hazard objects, our collectibles or nothing,
         //in random time intervals (but no longer than 5s). It runs as long as the game is running.
 
-        private IEnumerator HazardAttach()
-        {
-            while (GameOver == false)
-            {
-                bool foundHazard = false;
-                for (int i = 0; i < lastLine.transform.childCount; i++)
-                {
-                    if (lastLine.transform.GetChild(i).CompareTag("Hazards"))
-                        foundHazard = true;
-                }
-                Debug.Log("This is a test.");
-                if (foundHazard == false)
-                {
-//                    GameObject newObstacle = _upcomingHazard.Spawning(lastLine.GetComponent<Line>().Midpoint());
-//                    newObstacle.transform.SetParent(lastLine.transform);
-                    Debug.Log("whatever");
+        //NO LONGER USED, TO BE DELETED
 
-                }
-
-                yield return new WaitForSeconds(GetRandomInterval());
-
-                Debug.Log("Restart!");
-            }
-        }
+//        private IEnumerator HazardAttach()
+//        {
+//            while (GameOver == false)
+//            {
+//                bool foundHazard = false;
+//                for (int i = 0; i < lastLine.transform.childCount; i++)
+//                {
+//                    if (lastLine.transform.GetChild(i).CompareTag("Hazards"))
+//                        foundHazard = true;
+//                }
+//                Debug.Log("This is a test.");
+//                if (foundHazard == false)
+//                {
+////                    GameObject newObstacle = _upcomingHazard.Spawning(lastLine.GetComponent<Line>().Midpoint());
+////                    newObstacle.transform.SetParent(lastLine.transform);
+//                    Debug.Log("whatever");
+//
+//                }
+//
+//                yield return new WaitForSeconds(GetRandomInterval());
+//
+//                Debug.Log("Restart!");
+//            }
+//        }
 
 
         void OnTriggerEnter2D(Collider2D other)
@@ -94,13 +96,13 @@ namespace _Passive
 
         }
 
-        public void EndSpawning()
-        {
-            Debug.Log("...ending hazard spawning...");
-/*
-           hazardcoroutine StopCoroutine(hazardcoroutine);
-*/
-        }
+//        public void EndSpawning()
+//        {
+//            Debug.Log("...ending hazard spawning...");
+///*
+//           hazardcoroutine StopCoroutine(hazardcoroutine);
+//*/
+//        }
 
         void Management()
         {
