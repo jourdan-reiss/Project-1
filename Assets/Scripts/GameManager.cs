@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using _Passive;
 
@@ -20,6 +21,8 @@ public class GameManager : MonoBehaviour {
 	public GameObject thing;
     private bool _gameOver = false;
 
+
+    public Button restartButton;
     private Player player;
 	private Vector2 pointerPosition;
     private LineManager _lineManager;
@@ -30,6 +33,9 @@ public class GameManager : MonoBehaviour {
     private void Start()
     {
         _lineManager = FindObjectOfType<LineManager>();
+        Button button = restartButton.GetComponent<Button>();
+
+        button.onClick.AddListener(Restart);
     }
 
 
@@ -54,8 +60,8 @@ public class GameManager : MonoBehaviour {
 			currentWave.Attach ();
 		}
 
-		if (Input.GetKey (KeyCode.R))
-			Restart ();
+		/*if (Input.GetKey (KeyCode.R))
+			Restart ();*/
 	}
 
 	Vector3 WorldPosition ()
