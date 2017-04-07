@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80edf105-da9e-4250-9683-fb62d67ff0a6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.GGJ 2017/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ 2017/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Test Objects/TempWaveParent.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Test Objects/TempWaveParent.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Test Objects/Test Collectible.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Test Objects/Test Collectible.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Test Objects/Test Hazard.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Test Objects/Test Hazard.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Hazards.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Hazards.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/_scenes/Surfer Bro.unity" afterPath="$PROJECT_DIR$/Assets/_scenes/Surfer Bro.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
-    </list>
+    <list default="true" id="80edf105-da9e-4250-9683-fb62d67ff0a6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,8 +80,8 @@
       <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="40" column="52" lean-forward="false" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+            <state relative-caret-position="134">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <marker date="1491564638000" expanded="true" signature="6:117" ph="..." />
                 <marker date="1491564638000" expanded="true" signature="160:3067" ph="{...}" />
@@ -342,12 +333,12 @@
       <workItem from="1489668617897" duration="19341000" />
       <workItem from="1490008400481" duration="24125000" />
       <workItem from="1490886092920" duration="1265000" />
-      <workItem from="1491558420734" duration="5316000" />
+      <workItem from="1491558420734" duration="5681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72746000" />
+    <option name="totallyTimeSpent" value="73111000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,7 +351,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -959,8 +949,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="40" column="52" lean-forward="false" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+        <state relative-caret-position="134">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <marker date="1491564638000" expanded="true" signature="6:117" ph="..." />
             <marker date="1491564638000" expanded="true" signature="160:3067" ph="{...}" />
