@@ -45,3 +45,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 1862764587
+    locked: 0
+  - name: Foreground
+    uniqueID: 1563724767
+    locked: 0
+  - name: Wave
+    uniqueID: 2208031219
+    locked: 0
+  - name: Interactables
+    uniqueID: 156784673
+    locked: 0
+  - name: Player
+    uniqueID: 2992113005
+    locked: 0

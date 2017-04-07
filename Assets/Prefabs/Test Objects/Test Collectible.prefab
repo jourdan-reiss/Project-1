@@ -20,10 +20,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010591087864}
   - 61: {fileID: 61000012481335096}
-  - 114: {fileID: 114000011773813964}
   - 50: {fileID: 50000011856514776}
   - 114: {fileID: 114000012375862948}
   - 114: {fileID: 114000010598197438}
+  - 114: {fileID: 114000010206348234}
   m_Layer: 12
   m_Name: Test Collectible
   m_TagString: Hazards
@@ -105,6 +105,17 @@ BoxCollider2D:
   m_Offset: {x: -0.00039296222, y: 0.16333336}
   serializedVersion: 2
   m_Size: {x: 0.24834633, y: 0.2886936}
+--- !u!114 &114000010206348234
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012581778196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 928f608bcfaef4cffade0b9fc612a835, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114000010598197438
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -116,18 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3254f31b2e302447bb7ee3b69fcf6e7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToDestroy: 3
---- !u!114 &114000011773813964
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012581778196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 034e41bbef66e43268401306bf0371e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  timeToDestroy: 10
 --- !u!114 &114000012375862948
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -167,7 +167,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 156784673
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53518376e04ba42c3a085f1b45cd0176, type: 3}
   m_Color: {r: 0.8014706, g: 0.13554281, b: 0.13554281, a: 1}

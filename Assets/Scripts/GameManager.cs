@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour {
 
 
     public Button restartButton;
+    public Button gameOverRestart;
     private Player player;
 	private Vector2 pointerPosition;
     private LineManager _lineManager;
@@ -34,8 +35,10 @@ public class GameManager : MonoBehaviour {
     {
         _lineManager = FindObjectOfType<LineManager>();
         Button button = restartButton.GetComponent<Button>();
+        Button gameOverbutton = gameOverRestart.GetComponent<Button>();
 
         button.onClick.AddListener(Restart);
+        gameOverbutton.onClick.AddListener(Restart);
     }
 
 
