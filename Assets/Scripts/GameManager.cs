@@ -4,7 +4,8 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using _Passive;
 
-public class GameManager : MonoBehaviour {
+public class GameManager : MonoBehaviour
+{
 
 
 
@@ -24,6 +25,7 @@ public class GameManager : MonoBehaviour {
 
     public Button restartButton;
     public Button gameOverRestart;
+    public GameObject gameOverMenu;
     private Player player;
 	private Vector2 pointerPosition;
     private LineManager _lineManager;
@@ -63,8 +65,7 @@ public class GameManager : MonoBehaviour {
 			currentWave.Attach ();
 		}
 
-		/*if (Input.GetKey (KeyCode.R))
-			Restart ();*/
+
 	}
 
 	Vector3 WorldPosition ()
@@ -101,6 +102,10 @@ public class GameManager : MonoBehaviour {
     void GameOver()
     {
         if (_gameOver)
+        {
             Debug.Log("...Game Over");
+            gameOverMenu.SetActive(true);
+        }
     }
 }
+

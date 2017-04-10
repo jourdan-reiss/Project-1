@@ -12,14 +12,16 @@ public class Player : MonoBehaviour
     public float speed;
 
     private Rigidbody2D _playerRigidbody;
+    private GameManager gameManager;
 
-    private int _damage = 1;
+//    private int _damage = 1;
     private bool _isThePlayerStillAlive = true;
 
 
     void Start()
     {
         _playerRigidbody = GetComponent<Rigidbody2D>();
+        gameManager = FindObjectOfType<GameManager>();
     }
 
     private void FixedUpdate()
@@ -33,6 +35,7 @@ public class Player : MonoBehaviour
         if (!_isThePlayerStillAlive)
         {
             Debug.Log("Player should be knocked off, we'll play an animation.");
+            gameManager.PlayerHasBeenHit();
         }
     }
 }
