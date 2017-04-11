@@ -28,14 +28,14 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverMenu;
     private Player player;
 	private Vector2 pointerPosition;
-    private LineManager _lineManager;
+//    private LineManager _lineManager;
 
 
 	private Wave currentWave; //gets a reference to the Wave class, which our wave parent prefab uses
 
     private void Start()
     {
-        _lineManager = FindObjectOfType<LineManager>();
+//        _lineManager = FindObjectOfType<LineManager>();
         Button button = restartButton.GetComponent<Button>();
         Button gameOverbutton = gameOverRestart.GetComponent<Button>();
 
@@ -57,7 +57,7 @@ public class GameManager : MonoBehaviour
 		if (Input.GetButton ("Fire1")) 
 		{
 			currentWave.transform.position = WorldPosition ();
-			currentWave.transform.position = new Vector3 (Mathf.Clamp (currentWave.transform.position.x,-0.5f, 1.6f), 0f, currentWave.transform.position.z);
+			currentWave.transform.position = new Vector3 (Mathf.Clamp (currentWave.transform.position.x,-1.45f, 3.4f), -0.42f, currentWave.transform.position.z);
 		}
 		if (Input.GetButtonUp ("Fire1"))
 		{
@@ -86,7 +86,6 @@ public class GameManager : MonoBehaviour
 
     void WavePrepare ()
 	{
-		
 		GameObject prep = Instantiate (wavePrefab, WorldPosition (), Quaternion.identity) as GameObject;
 		currentWave = prep.GetComponent <Wave> (); 
 		currentWave.SetOutline ();
