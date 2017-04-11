@@ -40,6 +40,7 @@ namespace _Passive
 
         void OnTriggerEnter2D(Collider2D other)
         {
+            
             Vector3 Endpoint = other.transform.position + (Vector3) other.offset; //determines the right edge of the current line
             GameObject nextLine = RandomLineSpawn(Endpoint);
             Lines.Add(nextLine); //adds a reference of that new line to our list
