@@ -183,7 +183,7 @@ MonoBehaviour:
   thing: {fileID: 0}
   restartButton: {fileID: 1752981910}
   gameOverRestart: {fileID: 1555475377}
-  gameOverMenu: {fileID: 0}
+  gameOverMenu: {fileID: 1528289553}
 --- !u!4 &818970319
 Transform:
   m_ObjectHideFlags: 0
@@ -636,7 +636,7 @@ MonoBehaviour:
   initialSpawnTimer: 2
   RegularLine: {fileID: 1000010988131952, guid: 8a8e505acec5c4078b78b70ce968de2b,
     type: 2}
-  BiggerLine: {fileID: 1000012314209914, guid: 4cc3a478085b44087a662d2a7c4e807f, type: 2}
+  BiggerLine: {fileID: 1000010988131952, guid: 8a8e505acec5c4078b78b70ce968de2b, type: 2}
 --- !u!114 &1601589510
 MonoBehaviour:
   m_ObjectHideFlags: 0

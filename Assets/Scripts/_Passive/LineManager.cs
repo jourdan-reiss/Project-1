@@ -14,6 +14,7 @@ namespace _Passive
         public GameObject RegularLine;
         public GameObject BiggerLine;
 
+
         private Coroutine hazardcoroutine;
         private HazardGenerator _upcomingHazard;
         private float _hazardSpawnSeed;
@@ -31,22 +32,23 @@ namespace _Passive
             lastLine = firstLine;
         }
 
-        private float GetRandomInterval()
-        {
-            return Random.Range(1f, 5f); //this is a random time interval which we will use to create a loop via coroutine.
-                                         //below, you can see the coroutine it will be used in.
-        }
+//        private float GetRandomInterval()
+//        {
+//            return Random.Range(1f, 5f); //this is a random time interval which we will use to create a loop via coroutine.
+//                                         //below, you can see the coroutine it will be used in.
+//        }
 
 
         void OnTriggerEnter2D(Collider2D other)
         {
-            
             Vector3 Endpoint = other.transform.position + (Vector3) other.offset; //determines the right edge of the current line
-            GameObject nextLine = RandomLineSpawn(Endpoint);
-            Lines.Add(nextLine); //adds a reference of that new line to our list
-            Management(); //immediately calls management method to check number of elements in list
-            _upcomingHazard.WhatAreWeSpawning();
-            _upcomingHazard.Spawning(nextLine.GetComponent<Line>().Midpoint());
+                GameObject nextLine = RandomLineSpawn(Endpoint);
+
+                Lines.Add(nextLine); //adds a reference of that new line to our list
+                Management(); //immediately calls management method to check number of elements in list
+                _upcomingHazard.WhatAreWeSpawning();
+                _upcomingHazard.Spawning(nextLine.GetComponent<Line>().Midpoint());
+
         }
 
         GameObject RandomLineSpawn(Vector3 spawnPosition) //Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we can

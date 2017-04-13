@@ -90,7 +90,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000012443765768}
   m_Layer: 8
-  m_Name: LeftPoint
+  m_Name: RightPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124,7 +124,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011176650804}
   m_Layer: 8
-  m_Name: RightPoint
+  m_Name: LeftPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -361,7 +361,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
@@ -433,8 +433,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 820a62712830c4ba898269917cdbce97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftPoint: {fileID: 4000012443765768}
-  rightPoint: {fileID: 4000011176650804}
+  leftPoint: {fileID: 4000011176650804}
+  rightPoint: {fileID: 4000012443765768}
 --- !u!114 &114000010240967666
 MonoBehaviour:
   m_ObjectHideFlags: 1
