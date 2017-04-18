@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80edf105-da9e-4250-9683-fb62d67ff0a6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/BiggerBumpyLine.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/BiggerBumpyLine.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/BiggerLine.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/BiggerLine.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/Line.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/Line.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/RegularLine.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/RegularLine.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/WavyLine.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/WavyLine.prefab.meta" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.GGJ 2017/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ 2017/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/BiggerLine.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lines/BiggerLine.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Lines/RegularLine.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lines/RegularLine.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Test Objects/TempWaveParent.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Test Objects/TempWaveParent.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Test Objects/Test Collectible.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Test Objects/Test Collectible.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Test Objects/Test Hazard.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Test Objects/Test Hazard.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Collectables.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Collectables.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Hazards.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Hazards.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/InteractiveObjects.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractiveObjects.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/Line.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/Line.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/_Passive/LineManager.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/_Passive/LineManager.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/_scenes/Surfer Bro.unity" afterPath="$PROJECT_DIR$/Assets/_scenes/Surfer Bro.unity" />
@@ -42,23 +55,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LineManager.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LineManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/_Passive/LineManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="43" column="81" lean-forward="false" selection-start-line="43" selection-start-column="81" selection-end-line="43" selection-end-column="81" />
+            <state relative-caret-position="751">
+              <caret line="64" column="41" lean-forward="false" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
               <folding>
-                <marker date="1492108695000" expanded="true" signature="6:52" ph="..." />
-                <marker date="1492108695000" expanded="true" signature="114:3319" ph="{...}" />
-                <marker date="1492108695000" expanded="true" signature="161:3317" ph="{...}" />
-                <marker date="1492108695000" expanded="true" signature="722:1079" ph="{...}" />
-                <marker date="1492108695000" expanded="true" signature="1081:1372" ph="/* private float GetRandomInterval() ... */" />
-                <marker date="1492108695000" expanded="true" signature="1422:1965" ph="{...}" />
-                <marker date="1492108695000" expanded="true" signature="2025:2291" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
-                <marker date="1492108695000" expanded="true" signature="2291:2739" ph="{...}" />
-                <marker date="1492108695000" expanded="true" signature="2766:3311" ph="{...}" />
-                <marker date="1492108695000" expanded="true" signature="2871:3301" ph="{...}" />
-                <marker date="1492108695000" expanded="true" signature="2938:3186" ph="{...}" />
+                <marker date="1492531886000" expanded="true" signature="6:52" ph="..." />
+                <marker date="1492531886000" expanded="true" signature="114:3390" ph="{...}" />
+                <marker date="1492531886000" expanded="true" signature="161:3388" ph="{...}" />
+                <marker date="1492531886000" expanded="true" signature="758:1114" ph="{...}" />
+                <marker date="1492531886000" expanded="true" signature="1163:1980" ph="{...}" />
+                <marker date="1492531886000" expanded="true" signature="2040:2306" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
+                <marker date="1492531886000" expanded="true" signature="2306:2810" ph="{...}" />
+                <marker date="1492531886000" expanded="true" signature="2430:2499" ph="{...}" />
+                <marker date="1492531886000" expanded="true" signature="2517:2588" ph="{...}" />
+                <marker date="1492531886000" expanded="true" signature="2837:3382" ph="{...}" />
+                <marker date="1492531886000" expanded="true" signature="2942:3372" ph="{...}" />
+                <marker date="1492531886000" expanded="true" signature="3009:3257" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -67,12 +81,16 @@
       <file leaf-file-name="Line.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/Line.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="82" lean-forward="false" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
+            <state relative-caret-position="525">
+              <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
               <folding>
-                <marker date="1492097791000" expanded="true" signature="6:44" ph="..." />
-                <marker date="1492097791000" expanded="true" signature="78:274" ph="{...}" />
-                <marker date="1492097791000" expanded="true" signature="177:272" ph="{...}" />
+                <marker date="1492528096000" expanded="true" signature="6:44" ph="..." />
+                <marker date="1492528096000" expanded="true" signature="78:1073" ph="{...}" />
+                <marker date="1492528096000" expanded="true" signature="177:272" ph="{...}" />
+                <marker date="1492528096000" expanded="true" signature="315:578" ph="{...}" />
+                <marker date="1492528096000" expanded="true" signature="622:889" ph="{...}" />
+                <marker date="1492528096000" expanded="true" signature="932:979" ph="{...}" />
+                <marker date="1492528096000" expanded="true" signature="1023:1071" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -81,16 +99,16 @@
       <file leaf-file-name="Player.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding>
-                <marker date="1491821616000" expanded="true" signature="6:44" ph="..." />
-                <marker date="1491821616000" expanded="true" signature="81:904" ph="{...}" />
-                <marker date="1491821616000" expanded="true" signature="84:212" ph="/* In this class, I aim to: ... */" />
-                <marker date="1491821616000" expanded="true" signature="415:538" ph="{...}" />
-                <marker date="1491821616000" expanded="true" signature="570:638" ph="{...}" />
-                <marker date="1491821616000" expanded="true" signature="668:902" ph="{...}" />
-                <marker date="1491821616000" expanded="true" signature="751:896" ph="{...}" />
+                <marker date="1492534438000" expanded="true" signature="6:44" ph="..." />
+                <marker date="1492534438000" expanded="true" signature="81:905" ph="{...}" />
+                <marker date="1492534438000" expanded="true" signature="84:212" ph="/* In this class, I aim to: ... */" />
+                <marker date="1492534438000" expanded="true" signature="414:537" ph="{...}" />
+                <marker date="1492534438000" expanded="true" signature="569:639" ph="{...}" />
+                <marker date="1492534438000" expanded="true" signature="669:903" ph="{...}" />
+                <marker date="1492534438000" expanded="true" signature="752:897" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -99,7 +117,7 @@
       <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
+            <state relative-caret-position="360">
               <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <marker date="1491922551000" expanded="true" signature="6:117" ph="..." />
@@ -124,13 +142,28 @@
       <file leaf-file-name="Hazards.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hazards.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+            <state relative-caret-position="285">
+              <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
               <folding>
-                <marker date="1491560368000" expanded="true" signature="6:44" ph="..." />
-                <marker date="1491560368000" expanded="true" signature="87:536" ph="{...}" />
-                <marker date="1491560368000" expanded="true" signature="90:303" ph="/* In this class, I want to: ... */" />
-                <marker date="1491560368000" expanded="true" signature="397:534" ph="{...}" />
+                <marker date="1492531671000" expanded="true" signature="6:44" ph="..." />
+                <marker date="1492531671000" expanded="true" signature="87:538" ph="{...}" />
+                <marker date="1492531671000" expanded="true" signature="90:303" ph="/* In this class, I want to: ... */" />
+                <marker date="1492531671000" expanded="true" signature="397:534" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FloatingObjects.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatingObjects.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <marker date="1492531619000" expanded="true" signature="6:44" ph="..." />
+                <marker date="1492531619000" expanded="true" signature="90:342" ph="{...}" />
+                <marker date="1492531619000" expanded="true" signature="142:198" ph="{...}" />
+                <marker date="1492531619000" expanded="true" signature="200:340" ph="/* void OnCollisionEnter2D(Collision2D coll) ... */" />
               </folding>
             </state>
           </provider>
@@ -156,17 +189,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InteractiveObjects.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InteractiveObjects.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveObjects.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="300">
+              <caret line="20" column="77" lean-forward="false" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
               <folding>
-                <marker date="1490196251000" expanded="true" signature="6:44" ph="..." />
-                <marker date="1490196251000" expanded="true" signature="93:438" ph="{...}" />
-                <marker date="1490196251000" expanded="true" signature="160:216" ph="{...}" />
-                <marker date="1490196251000" expanded="true" signature="281:436" ph="{...}" />
-                <marker date="1490196251000" expanded="true" signature="337:430" ph="{...}" />
+                <marker date="1492536145000" expanded="true" signature="6:44" ph="..." />
+                <marker date="1492536145000" expanded="true" signature="93:640" ph="{...}" />
+                <marker date="1492536145000" expanded="true" signature="160:217" ph="{...}" />
+                <marker date="1492536145000" expanded="true" signature="282:638" ph="{...}" />
+                <marker date="1492536145000" expanded="true" signature="365:458" ph="{...}" />
+                <marker date="1492536145000" expanded="true" signature="539:632" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -175,12 +209,13 @@
       <file leaf-file-name="Collectables.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collectables.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding>
-                <marker date="1491562639000" expanded="true" signature="6:58" ph="..." />
-                <marker date="1491562639000" expanded="true" signature="111:303" ph="{...}" />
-                <marker date="1491562639000" expanded="true" signature="188:297" ph="{...}" />
+                <marker date="1492531753000" expanded="true" signature="6:58" ph="..." />
+                <marker date="1492531753000" expanded="true" signature="111:389" ph="{...}" />
+                <marker date="1492531753000" expanded="true" signature="188:383" ph="{...}" />
+                <marker date="1492531753000" expanded="true" signature="295:373" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -201,13 +236,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Line.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyByTime.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/HazardGenerator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InteractiveObjects.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Hazards.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Collectables.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/Line.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FloatingObjects.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hazards.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collectables.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/_Passive/LineManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractiveObjects.cs" />
       </list>
     </option>
   </component>
@@ -360,12 +396,13 @@
       <workItem from="1490886092920" duration="1265000" />
       <workItem from="1491558420734" duration="5681000" />
       <workItem from="1491820393365" duration="4127000" />
-      <workItem from="1492087651159" duration="13698000" />
+      <workItem from="1492087651159" duration="13791000" />
+      <workItem from="1492521751885" duration="10418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90936000" />
+    <option name="totallyTimeSpent" value="101447000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,20 +455,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveObjects.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding>
-            <marker date="1490196251000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1490196251000" expanded="true" signature="93:438" ph="{...}" />
-            <marker date="1490196251000" expanded="true" signature="160:216" ph="{...}" />
-            <marker date="1490196251000" expanded="true" signature="281:436" ph="{...}" />
-            <marker date="1490196251000" expanded="true" signature="337:430" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -460,17 +483,18 @@
         <state relative-caret-position="15">
           <caret line="1" column="75" lean-forward="false" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
           <folding>
-            <marker date="1492108695000" expanded="true" signature="6:52" ph="..." />
-            <marker date="1492108695000" expanded="true" signature="114:3319" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="161:3317" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="722:1079" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="1081:1372" ph="/* private float GetRandomInterval() ... */" />
-            <marker date="1492108695000" expanded="true" signature="1422:1965" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2025:2291" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
-            <marker date="1492108695000" expanded="true" signature="2291:2739" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2766:3311" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2871:3301" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2938:3186" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="6:52" ph="..." />
+            <marker date="1492531886000" expanded="true" signature="114:3390" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="161:3388" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="758:1114" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="1163:1980" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2040:2306" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
+            <marker date="1492531886000" expanded="true" signature="2306:2810" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2430:2499" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2517:2588" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2837:3382" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2942:3372" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="3009:3257" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -488,17 +512,18 @@
         <state relative-caret-position="15">
           <caret line="1" column="75" lean-forward="false" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
           <folding>
-            <marker date="1492108695000" expanded="true" signature="6:52" ph="..." />
-            <marker date="1492108695000" expanded="true" signature="114:3319" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="161:3317" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="722:1079" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="1081:1372" ph="/* private float GetRandomInterval() ... */" />
-            <marker date="1492108695000" expanded="true" signature="1422:1965" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2025:2291" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
-            <marker date="1492108695000" expanded="true" signature="2291:2739" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2766:3311" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2871:3301" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2938:3186" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="6:52" ph="..." />
+            <marker date="1492531886000" expanded="true" signature="114:3390" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="161:3388" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="758:1114" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="1163:1980" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2040:2306" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
+            <marker date="1492531886000" expanded="true" signature="2306:2810" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2430:2499" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2517:2588" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2837:3382" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2942:3372" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="3009:3257" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -515,13 +540,13 @@
         <state relative-caret-position="165">
           <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
-            <marker date="1491821616000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1491821616000" expanded="true" signature="81:904" ph="{...}" />
-            <marker date="1491821616000" expanded="true" signature="84:212" ph="/* In this class, I aim to: ... */" />
-            <marker date="1491821616000" expanded="true" signature="415:538" ph="{...}" />
-            <marker date="1491821616000" expanded="true" signature="570:638" ph="{...}" />
-            <marker date="1491821616000" expanded="true" signature="668:902" ph="{...}" />
-            <marker date="1491821616000" expanded="true" signature="751:896" ph="{...}" />
+            <marker date="1492534438000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1492534438000" expanded="true" signature="81:905" ph="{...}" />
+            <marker date="1492534438000" expanded="true" signature="84:212" ph="/* In this class, I aim to: ... */" />
+            <marker date="1492534438000" expanded="true" signature="414:537" ph="{...}" />
+            <marker date="1492534438000" expanded="true" signature="569:639" ph="{...}" />
+            <marker date="1492534438000" expanded="true" signature="669:903" ph="{...}" />
+            <marker date="1492534438000" expanded="true" signature="752:897" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -554,10 +579,10 @@
         <state relative-caret-position="675">
           <caret line="45" column="26" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
           <folding>
-            <marker date="1491560368000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1491560368000" expanded="true" signature="87:536" ph="{...}" />
-            <marker date="1491560368000" expanded="true" signature="90:303" ph="/* In this class, I want to: ... */" />
-            <marker date="1491560368000" expanded="true" signature="397:534" ph="{...}" />
+            <marker date="1492531671000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1492531671000" expanded="true" signature="87:538" ph="{...}" />
+            <marker date="1492531671000" expanded="true" signature="90:303" ph="/* In this class, I want to: ... */" />
+            <marker date="1492531671000" expanded="true" signature="397:534" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -567,11 +592,12 @@
         <state relative-caret-position="60">
           <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding>
-            <marker date="1490196251000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1490196251000" expanded="true" signature="93:438" ph="{...}" />
-            <marker date="1490196251000" expanded="true" signature="160:216" ph="{...}" />
-            <marker date="1490196251000" expanded="true" signature="281:436" ph="{...}" />
-            <marker date="1490196251000" expanded="true" signature="337:430" ph="{...}" />
+            <marker date="1492536145000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1492536145000" expanded="true" signature="93:640" ph="{...}" />
+            <marker date="1492536145000" expanded="true" signature="160:217" ph="{...}" />
+            <marker date="1492536145000" expanded="true" signature="282:638" ph="{...}" />
+            <marker date="1492536145000" expanded="true" signature="365:458" ph="{...}" />
+            <marker date="1492536145000" expanded="true" signature="539:632" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -603,13 +629,13 @@
         <state relative-caret-position="165">
           <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
-            <marker date="1491821616000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1491821616000" expanded="true" signature="81:904" ph="{...}" />
-            <marker date="1491821616000" expanded="true" signature="84:212" ph="/* In this class, I aim to: ... */" />
-            <marker date="1491821616000" expanded="true" signature="415:538" ph="{...}" />
-            <marker date="1491821616000" expanded="true" signature="570:638" ph="{...}" />
-            <marker date="1491821616000" expanded="true" signature="668:902" ph="{...}" />
-            <marker date="1491821616000" expanded="true" signature="751:896" ph="{...}" />
+            <marker date="1492534438000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1492534438000" expanded="true" signature="81:905" ph="{...}" />
+            <marker date="1492534438000" expanded="true" signature="84:212" ph="/* In this class, I aim to: ... */" />
+            <marker date="1492534438000" expanded="true" signature="414:537" ph="{...}" />
+            <marker date="1492534438000" expanded="true" signature="569:639" ph="{...}" />
+            <marker date="1492534438000" expanded="true" signature="669:903" ph="{...}" />
+            <marker date="1492534438000" expanded="true" signature="752:897" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -642,10 +668,10 @@
         <state relative-caret-position="645">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <marker date="1491560368000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1491560368000" expanded="true" signature="87:536" ph="{...}" />
-            <marker date="1491560368000" expanded="true" signature="90:303" ph="/* In this class, I want to: ... */" />
-            <marker date="1491560368000" expanded="true" signature="397:534" ph="{...}" />
+            <marker date="1492531671000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1492531671000" expanded="true" signature="87:538" ph="{...}" />
+            <marker date="1492531671000" expanded="true" signature="90:303" ph="/* In this class, I want to: ... */" />
+            <marker date="1492531671000" expanded="true" signature="397:534" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -655,17 +681,18 @@
         <state relative-caret-position="165">
           <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding>
-            <marker date="1492108695000" expanded="true" signature="6:52" ph="..." />
-            <marker date="1492108695000" expanded="true" signature="114:3319" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="161:3317" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="722:1079" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="1081:1372" ph="/* private float GetRandomInterval() ... */" />
-            <marker date="1492108695000" expanded="true" signature="1422:1965" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2025:2291" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
-            <marker date="1492108695000" expanded="true" signature="2291:2739" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2766:3311" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2871:3301" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2938:3186" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="6:52" ph="..." />
+            <marker date="1492531886000" expanded="true" signature="114:3390" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="161:3388" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="758:1114" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="1163:1980" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2040:2306" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
+            <marker date="1492531886000" expanded="true" signature="2306:2810" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2430:2499" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2517:2588" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2837:3382" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2942:3372" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="3009:3257" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -697,17 +724,18 @@
         <state relative-caret-position="915">
           <caret line="61" column="35" lean-forward="false" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
           <folding>
-            <marker date="1492108695000" expanded="true" signature="6:52" ph="..." />
-            <marker date="1492108695000" expanded="true" signature="114:3319" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="161:3317" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="722:1079" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="1081:1372" ph="/* private float GetRandomInterval() ... */" />
-            <marker date="1492108695000" expanded="true" signature="1422:1965" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2025:2291" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
-            <marker date="1492108695000" expanded="true" signature="2291:2739" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2766:3311" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2871:3301" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2938:3186" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="6:52" ph="..." />
+            <marker date="1492531886000" expanded="true" signature="114:3390" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="161:3388" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="758:1114" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="1163:1980" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2040:2306" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
+            <marker date="1492531886000" expanded="true" signature="2306:2810" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2430:2499" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2517:2588" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2837:3382" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2942:3372" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="3009:3257" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -833,57 +861,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <marker date="1491821616000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1491821616000" expanded="true" signature="81:904" ph="{...}" />
-            <marker date="1491821616000" expanded="true" signature="84:212" ph="/* In this class, I aim to: ... */" />
-            <marker date="1491821616000" expanded="true" signature="415:538" ph="{...}" />
-            <marker date="1491821616000" expanded="true" signature="570:638" ph="{...}" />
-            <marker date="1491821616000" expanded="true" signature="668:902" ph="{...}" />
-            <marker date="1491821616000" expanded="true" signature="751:896" ph="{...}" />
+            <marker date="1491922551000" expanded="true" signature="6:117" ph="..." />
+            <marker date="1491922551000" expanded="true" signature="159:3121" ph="{...}" />
+            <marker date="1491922551000" expanded="true" signature="166:535" ph="/* THIS GAMEMANAGER SCRIPT WILL DEAL WITH: ... */" />
+            <marker date="1491922551000" expanded="true" signature="963:1266" ph="{...}" />
+            <marker date="1491922551000" expanded="true" signature="1287:2147" ph="{...}" />
+            <marker date="1491922551000" expanded="true" signature="1334:1740" ph="/* This is a three-stage process which checks for each stage of a button press and does specific things ... */" />
+            <marker date="1491922551000" expanded="true" signature="1830:2045" ph="{...}" />
+            <marker date="1491922551000" expanded="true" signature="2080:2142" ph="{...}" />
+            <marker date="1491922551000" expanded="true" signature="2174:2407" ph="{...}" />
+            <marker date="1491922551000" expanded="true" signature="2521:2623" ph="{...}" />
+            <marker date="1491922551000" expanded="true" signature="2648:2828" ph="{...}" />
+            <marker date="1491922551000" expanded="true" signature="2846:2883" ph="{...}" />
+            <marker date="1491922551000" expanded="true" signature="2983:3119" ph="{...}" />
+            <marker date="1491922551000" expanded="true" signature="3012:3113" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hazards.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/Line.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+        <state relative-caret-position="525">
+          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
           <folding>
-            <marker date="1491560368000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1491560368000" expanded="true" signature="87:536" ph="{...}" />
-            <marker date="1491560368000" expanded="true" signature="90:303" ph="/* In this class, I want to: ... */" />
-            <marker date="1491560368000" expanded="true" signature="397:534" ph="{...}" />
+            <marker date="1492528096000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1492528096000" expanded="true" signature="78:1073" ph="{...}" />
+            <marker date="1492528096000" expanded="true" signature="177:272" ph="{...}" />
+            <marker date="1492528096000" expanded="true" signature="315:578" ph="{...}" />
+            <marker date="1492528096000" expanded="true" signature="622:889" ph="{...}" />
+            <marker date="1492528096000" expanded="true" signature="932:979" ph="{...}" />
+            <marker date="1492528096000" expanded="true" signature="1023:1071" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collectables.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatingObjects.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <marker date="1491562639000" expanded="true" signature="6:58" ph="..." />
-            <marker date="1491562639000" expanded="true" signature="111:303" ph="{...}" />
-            <marker date="1491562639000" expanded="true" signature="188:297" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveObjects.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding>
-            <marker date="1490196251000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1490196251000" expanded="true" signature="93:438" ph="{...}" />
-            <marker date="1490196251000" expanded="true" signature="160:216" ph="{...}" />
-            <marker date="1490196251000" expanded="true" signature="281:436" ph="{...}" />
-            <marker date="1490196251000" expanded="true" signature="337:430" ph="{...}" />
+            <marker date="1492531619000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1492531619000" expanded="true" signature="90:342" ph="{...}" />
+            <marker date="1492531619000" expanded="true" signature="142:198" ph="{...}" />
+            <marker date="1492531619000" expanded="true" signature="200:340" ph="/* void OnCollisionEnter2D(Collision2D coll) ... */" />
           </folding>
         </state>
       </provider>
@@ -906,57 +931,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/_Dummy Scripts/Line.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hazards.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="82" lean-forward="false" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
+        <state relative-caret-position="285">
+          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
-            <marker date="1492097791000" expanded="true" signature="6:44" ph="..." />
-            <marker date="1492097791000" expanded="true" signature="78:274" ph="{...}" />
-            <marker date="1492097791000" expanded="true" signature="177:272" ph="{...}" />
+            <marker date="1492531671000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1492531671000" expanded="true" signature="87:538" ph="{...}" />
+            <marker date="1492531671000" expanded="true" signature="90:303" ph="/* In this class, I want to: ... */" />
+            <marker date="1492531671000" expanded="true" signature="397:534" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collectables.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
-            <marker date="1491922551000" expanded="true" signature="6:117" ph="..." />
-            <marker date="1491922551000" expanded="true" signature="159:3121" ph="{...}" />
-            <marker date="1491922551000" expanded="true" signature="166:535" ph="/* THIS GAMEMANAGER SCRIPT WILL DEAL WITH: ... */" />
-            <marker date="1491922551000" expanded="true" signature="963:1266" ph="{...}" />
-            <marker date="1491922551000" expanded="true" signature="1287:2147" ph="{...}" />
-            <marker date="1491922551000" expanded="true" signature="1334:1740" ph="/* This is a three-stage process which checks for each stage of a button press and does specific things ... */" />
-            <marker date="1491922551000" expanded="true" signature="1830:2045" ph="{...}" />
-            <marker date="1491922551000" expanded="true" signature="2080:2142" ph="{...}" />
-            <marker date="1491922551000" expanded="true" signature="2174:2407" ph="{...}" />
-            <marker date="1491922551000" expanded="true" signature="2521:2623" ph="{...}" />
-            <marker date="1491922551000" expanded="true" signature="2648:2828" ph="{...}" />
-            <marker date="1491922551000" expanded="true" signature="2846:2883" ph="{...}" />
-            <marker date="1491922551000" expanded="true" signature="2983:3119" ph="{...}" />
-            <marker date="1491922551000" expanded="true" signature="3012:3113" ph="{...}" />
+            <marker date="1492531753000" expanded="true" signature="6:58" ph="..." />
+            <marker date="1492531753000" expanded="true" signature="111:389" ph="{...}" />
+            <marker date="1492531753000" expanded="true" signature="188:383" ph="{...}" />
+            <marker date="1492531753000" expanded="true" signature="295:373" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/_Passive/LineManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="43" column="81" lean-forward="false" selection-start-line="43" selection-start-column="81" selection-end-line="43" selection-end-column="81" />
+        <state relative-caret-position="751">
+          <caret line="64" column="41" lean-forward="false" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
           <folding>
-            <marker date="1492108695000" expanded="true" signature="6:52" ph="..." />
-            <marker date="1492108695000" expanded="true" signature="114:3319" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="161:3317" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="722:1079" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="1081:1372" ph="/* private float GetRandomInterval() ... */" />
-            <marker date="1492108695000" expanded="true" signature="1422:1965" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2025:2291" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
-            <marker date="1492108695000" expanded="true" signature="2291:2739" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2766:3311" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2871:3301" ph="{...}" />
-            <marker date="1492108695000" expanded="true" signature="2938:3186" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="6:52" ph="..." />
+            <marker date="1492531886000" expanded="true" signature="114:3390" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="161:3388" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="758:1114" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="1163:1980" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2040:2306" ph="/* Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we ... */" />
+            <marker date="1492531886000" expanded="true" signature="2306:2810" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2430:2499" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2517:2588" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2837:3382" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="2942:3372" ph="{...}" />
+            <marker date="1492531886000" expanded="true" signature="3009:3257" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <marker date="1492534438000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1492534438000" expanded="true" signature="81:905" ph="{...}" />
+            <marker date="1492534438000" expanded="true" signature="84:212" ph="/* In this class, I aim to: ... */" />
+            <marker date="1492534438000" expanded="true" signature="414:537" ph="{...}" />
+            <marker date="1492534438000" expanded="true" signature="569:639" ph="{...}" />
+            <marker date="1492534438000" expanded="true" signature="669:903" ph="{...}" />
+            <marker date="1492534438000" expanded="true" signature="752:897" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveObjects.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="77" lean-forward="false" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
+          <folding>
+            <marker date="1492536145000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1492536145000" expanded="true" signature="93:640" ph="{...}" />
+            <marker date="1492536145000" expanded="true" signature="160:217" ph="{...}" />
+            <marker date="1492536145000" expanded="true" signature="282:638" ph="{...}" />
+            <marker date="1492536145000" expanded="true" signature="365:458" ph="{...}" />
+            <marker date="1492536145000" expanded="true" signature="539:632" ph="{...}" />
           </folding>
         </state>
       </provider>

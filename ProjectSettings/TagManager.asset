@@ -7,7 +7,7 @@ TagManager:
   - Water
   - Objects
   - Hazards
-  - New Tag
+  - Waves
   layers:
   - Default
   - TransparentFX

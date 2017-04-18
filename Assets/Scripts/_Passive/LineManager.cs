@@ -11,8 +11,9 @@ namespace _Passive
 
         public int maxLines;
         public float initialSpawnTimer = 2f;
+        public GameObject SmallLine;
         public GameObject RegularLine;
-        public GameObject BiggerLine;
+        public GameObject LargeLine;
 
 
         private Coroutine hazardcoroutine;
@@ -27,22 +28,20 @@ namespace _Passive
             _upcomingHazard = GetComponent<HazardGenerator>();
 
             Lines = new List<GameObject>();
-            GameObject firstLine = Instantiate(BiggerLine); //makes sure that there is always a large line at start.
+            GameObject firstLine = Instantiate(LargeLine); //makes sure that there is always a large line at start.
             Lines.Add(firstLine); //adds it immediately to the list of lines.
             lastLine = firstLine;
         }
 
-//        private float GetRandomInterval()
-//        {
-//            return Random.Range(1f, 5f); //this is a random time interval which we will use to create a loop via coroutine.
-//                                         //below, you can see the coroutine it will be used in.
-//        }
-
-
         void OnTriggerEnter2D(Collider2D other)
         {
-            Vector3 Endpoint = other.transform.position + (Vector3) other.offset; //determines the right edge of the current line
+                Vector3 Endpoint = (Vector3) lastLine.GetComponent<Line>().Midpoint() + (Vector3) other.offset; //determines the right edge of the current line
                 GameObject nextLine = RandomLineSpawn(Endpoint);
+
+                nextLine.transform.position = new Vector3
+
+                (nextLine.transform.position.x + nextLine.GetComponent<Line>().LeftDistanceFromMiddle(),
+                nextLine.transform.position.y, nextLine.transform.position.z);
 
                 Lines.Add(nextLine); //adds a reference of that new line to our list
                 Management(); //immediately calls management method to check number of elements in list
@@ -56,10 +55,15 @@ namespace _Passive
         {
             GameObject lineToSpawn;
             float spawnSeed = Random.value;
-            if (spawnSeed < 0.5f)
-                lineToSpawn = BiggerLine;
+            if (spawnSeed < 0.6f)
+            {
+                lineToSpawn = SmallLine;
+            }
+
             else
+            {
                 lineToSpawn = RegularLine;
+            }
 
             lastLine = Instantiate(lineToSpawn, spawnPosition, Quaternion.identity) as GameObject; //see below;
             return lastLine; // makes sure to instantate the next line explicitly as a gameobject

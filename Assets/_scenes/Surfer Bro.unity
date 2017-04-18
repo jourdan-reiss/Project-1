@@ -318,6 +318,16 @@ Prefab:
       propertyPath: m_SortingLayerID
       value: -1302854291
       objectReference: {fileID: 0}
+    - target: {fileID: 114000011569261054, guid: 853386a432d314f2d8c47b415d050657,
+        type: 2}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 50000011912783816, guid: 853386a432d314f2d8c47b415d050657,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 853386a432d314f2d8c47b415d050657, type: 2}
   m_IsPrefabParent: 0
@@ -634,9 +644,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxLines: 6
   initialSpawnTimer: 2
-  RegularLine: {fileID: 1000010988131952, guid: 8a8e505acec5c4078b78b70ce968de2b,
+  SmallLine: {fileID: 1000010751764714, guid: aef1a6c18e556414195820cd04514624, type: 2}
+  RegularLine: {fileID: 1000010803573274, guid: 1dd389dade0fe417cb744545c8d2327b,
     type: 2}
-  BiggerLine: {fileID: 1000010988131952, guid: 8a8e505acec5c4078b78b70ce968de2b, type: 2}
+  LargeLine: {fileID: 1000013522812494, guid: 022e91704d0a94fb29f67d28df636c1a, type: 2}
 --- !u!114 &1601589510
 MonoBehaviour:
   m_ObjectHideFlags: 0

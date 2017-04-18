@@ -9,7 +9,10 @@ using System.Collections;
         protected override void OnCollisionEnter2D(Collision2D coll)
 
         {
-            Debug.Log("Picked up by player");
             base.OnCollisionEnter2D(coll);
+            if (coll.gameObject.CompareTag("Player"))
+            {
+                Debug.Log("Picked up by player");
+            }
         }
     }

@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
 */
     public float speed;
 
-    private Rigidbody2D _playerRigidbody;
+    public Rigidbody2D _playerRigidbody;
     private GameManager gameManager;
 
 //    private int _damage = 1;
@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _playerRigidbody.AddForce(Vector2.right*speed);
+        _playerRigidbody.AddForce(transform.right*speed);
     }
 
     public void KnockedOff()

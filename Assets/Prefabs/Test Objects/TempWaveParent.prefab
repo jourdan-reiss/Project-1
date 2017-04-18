@@ -22,7 +22,7 @@ GameObject:
   - 60: {fileID: 60000013815567258}
   m_Layer: 10
   m_Name: TempWave
-  m_TagString: Untagged
+  m_TagString: Waves
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54,7 +54,7 @@ GameObject:
   - 114: {fileID: 114000012428991842}
   m_Layer: 10
   m_Name: TempWaveParent
-  m_TagString: Untagged
+  m_TagString: Waves
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3254f31b2e302447bb7ee3b69fcf6e7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToDestroy: 6
+  timeToDestroy: 9
 --- !u!114 &114000012700881626
 MonoBehaviour:
   m_ObjectHideFlags: 1

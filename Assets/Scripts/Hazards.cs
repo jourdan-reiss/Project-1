@@ -15,8 +15,10 @@ This will eventually inherit from a general class called "Interactables"
 
     protected override void OnCollisionEnter2D(Collision2D coll)
     {
+        base.OnCollisionEnter2D(coll);
         player = coll.gameObject.GetComponent<Player>();
         player.KnockedOff();
-        base.OnCollisionEnter2D(coll);
     }
+
+
 }
