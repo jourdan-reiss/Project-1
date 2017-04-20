@@ -2,7 +2,6 @@
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using _Passive;
 
 public class GameManager : MonoBehaviour
 {
@@ -19,15 +18,17 @@ public class GameManager : MonoBehaviour
 	*/
 
 	public GameObject wavePrefab;
-	public GameObject thing;
+//	public GameObject thing;
+
     private bool _gameOver = false;
+    private int score;
+    private Player player;
+    private Vector2 pointerPosition;
 
-
+    public Text scoreText;
     public Button restartButton;
     public Button gameOverRestart;
     public GameObject gameOverMenu;
-    private Player player;
-	private Vector2 pointerPosition;
 //    private LineManager _lineManager;
 
 
@@ -41,6 +42,8 @@ public class GameManager : MonoBehaviour
 
         button.onClick.AddListener(Restart);
         gameOverbutton.onClick.AddListener(Restart);
+
+        score = 0;
     }
 
 
@@ -64,11 +67,15 @@ public class GameManager : MonoBehaviour
 			currentWave.SetSolid ();
 			currentWave.Attach ();
 		}
-
-
 	}
 
-	Vector3 WorldPosition ()
+    public void ScoreCount()
+    {
+        score += 1;
+        scoreText.text = "Score: " + score.ToString();
+    }
+
+    Vector3 WorldPosition ()
 	{
 		return Camera.main.ScreenToWorldPoint (new Vector3 (pointerPosition.x,pointerPosition.y , 10f)); //screen to worldpoint is a method called directly from the main camera, converting pixel 2D co-ordinates into 3D co-ordinates.
 	}

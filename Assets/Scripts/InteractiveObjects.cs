@@ -13,15 +13,15 @@ public class InteractiveObjects : MonoBehaviour
 
     protected virtual void OnCollisionEnter2D(Collision2D coll)
     {
-        if (coll.gameObject.GetComponent<Collider2D>().CompareTag("Player"))
+        if (coll.gameObject.CompareTag("Player"))
         {
             Debug.Log(coll.gameObject);
             Destroy(gameObject);
         }
-        else if (coll.gameObject.GetComponent<Collider2D>().CompareTag("Waves"))
-        {
-            Debug.Log(coll.gameObject);
-            Destroy(gameObject);
-        }
+    }
+
+    public void DestroySelf()
+    {
+        Destroy(this);
     }
 }

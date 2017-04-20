@@ -6,6 +6,13 @@ using System.Collections;
     public class Collectables : InteractiveObjects
     {
 
+        public GameManager gameManager;
+
+        void Awake()
+        {
+            gameManager = FindObjectOfType<GameManager>();
+        }
+
         protected override void OnCollisionEnter2D(Collision2D coll)
 
         {
@@ -13,6 +20,7 @@ using System.Collections;
             if (coll.gameObject.CompareTag("Player"))
             {
                 Debug.Log("Picked up by player");
+                gameManager.ScoreCount();
             }
         }
     }
