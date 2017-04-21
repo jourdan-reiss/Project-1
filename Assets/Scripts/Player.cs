@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
@@ -10,23 +11,63 @@ public class Player : MonoBehaviour
 
 */
     public float speed;
+    public float thrust;
 
-    public Rigidbody2D _playerRigidbody;
+    private bool grounded = true;
+    private Rigidbody2D _playerRigidbody;
     private GameManager gameManager;
 
-//    private int _damage = 1;
+
     private bool _isThePlayerStillAlive = true;
+
+    public delegate void TriggerEnterEvent();
+
+    public static event TriggerEnterEvent TriggerEntered;
 
 
     void Start()
     {
         _playerRigidbody = GetComponent<Rigidbody2D>();
         gameManager = FindObjectOfType<GameManager>();
+
+
     }
 
-    private void FixedUpdate()
+    void OnCollisionExit2D(Collision2D other)
     {
-        _playerRigidbody.AddForce(transform.right*speed);
+        if (other.gameObject.CompareTag("Waves"))
+        {
+            Debug.Log("Player has just jumped off" + other.gameObject.name);
+            grounded = false;
+            if (!grounded)
+            {
+                Debug.Log("Jump!");
+                _playerRigidbody.AddForce(transform.up * thrust);
+            }
+            grounded = true;
+        }
+    }
+
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+
+
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+
+    }
+
+    void FixedUpdate()
+    {
+        _playerRigidbody.AddForce(transform.right * speed);
     }
 
     public void KnockedOff()

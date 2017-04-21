@@ -55,7 +55,7 @@ namespace _Passive
         {
             GameObject lineToSpawn;
             float spawnSeed = Random.value;
-            if (spawnSeed < 0.6f)
+            if (spawnSeed <= 0.8f)
             {
                 lineToSpawn = SmallLine;
             }

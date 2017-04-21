@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class FloatingObjects : MonoBehaviour
+public class FloatingObjects : InteractiveObjects
 {
 
     private Rigidbody2D rb2D;
