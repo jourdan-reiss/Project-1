@@ -13,56 +13,70 @@ public class Player : MonoBehaviour
     public float speed;
     public float thrust;
 
+    public LayerMask colliderMask;
+
     private bool grounded = true;
     private Rigidbody2D _playerRigidbody;
     private GameManager gameManager;
 
 
+    private CameraController cameraController;
+
     private bool _isThePlayerStillAlive = true;
-
-    public delegate void TriggerEnterEvent();
-
-    public static event TriggerEnterEvent TriggerEntered;
 
 
     void Start()
     {
         _playerRigidbody = GetComponent<Rigidbody2D>();
         gameManager = FindObjectOfType<GameManager>();
+        cameraController = FindObjectOfType<CameraController>();
 
 
     }
 
     void OnCollisionExit2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Waves"))
+
+        if (other.collider.gameObject.GetComponent<Wave>())
         {
             Debug.Log("Player has just jumped off" + other.gameObject.name);
             grounded = false;
-            if (!grounded)
-            {
-                Debug.Log("Jump!");
-                _playerRigidbody.AddForce(transform.up * thrust);
-            }
+            PlayerJump();
+        }
+    }
+
+    void PlayerJump()
+    {
+        if (!grounded)
+        {
+            Debug.Log("Jump!");
+            _playerRigidbody.AddForce(transform.up * thrust);
             grounded = true;
         }
     }
 
-
     void OnTriggerEnter2D(Collider2D other)
     {
-
-
-    }
-
-    void OnTriggerStay2D(Collider2D other)
-    {
+        if (other.gameObject.GetComponent<Hazards>())
+        {
+           cameraController.ActivateZoomMethod();
+        }
 
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
+        if (other.gameObject.GetComponent<Hazards>())
+        {
+            cameraController.DeactivateZoomMethod();
 
+
+            if (_isThePlayerStillAlive)
+            {
+                Debug.Log("Our hero lives on!");
+            }
+
+        }
     }
 
     void FixedUpdate()
@@ -77,6 +91,7 @@ public class Player : MonoBehaviour
         {
             Debug.Log("Player should be knocked off, we'll play an animation.");
             gameManager.PlayerHasBeenHit();
+            cameraController.DeactivateZoomMethod();
         }
     }
 }

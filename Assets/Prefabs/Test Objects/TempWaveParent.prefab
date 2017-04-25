@@ -240,7 +240,7 @@ MonoBehaviour:
   outline: {fileID: 1000011095824162}
   lineMask:
     serializedVersion: 2
-    m_Bits: 4294966015
+    m_Bits: 4294963967
 --- !u!212 &212000010779145458
 SpriteRenderer:
   m_ObjectHideFlags: 1

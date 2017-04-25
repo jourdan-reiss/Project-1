@@ -123,6 +123,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("Changing boolean...");
         _gameOver = true;
         GameOver();
+        Time.timeScale = 0f;
 
 
     }
@@ -148,6 +149,7 @@ public class GameManager : MonoBehaviour
             Debug.Log("...Game Over");
             gameOverMenu.SetActive(true);
             Time.timeScale = 0f;
+
         }
     }
 }

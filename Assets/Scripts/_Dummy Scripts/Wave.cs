@@ -28,8 +28,8 @@ public class Wave : MonoBehaviour {
 		 //showots a ray directly downwards from the wave object to check if it hits a line.
 		if (checkIfWaveHit.collider != null)
 		{
-			Debug.Log (checkIfWaveHit.collider.gameObject.name); 
-			transform.SetParent (checkIfWaveHit.collider.transform); //the wave then becomes a child of the line.
+		        Debug.Log(checkIfWaveHit.collider.gameObject.name);
+		        transform.SetParent(checkIfWaveHit.collider.transform); //the wave then becomes a child of the line.
 		}
 	}
 }

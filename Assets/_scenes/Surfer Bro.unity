@@ -428,6 +428,15 @@ Prefab:
       propertyPath: triggerEnterResponse.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012757749488, guid: 853386a432d314f2d8c47b415d050657, type: 2}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011569261054, guid: 853386a432d314f2d8c47b415d050657,
+        type: 2}
+      propertyPath: colliderMask.m_Bits
+      value: 4294967039
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 853386a432d314f2d8c47b415d050657, type: 2}
   m_IsPrefabParent: 0
@@ -617,6 +626,11 @@ Prefab:
     - target: {fileID: 1000011145634208, guid: c8d320639f7404a86910c172f2b3cd20, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012700881626, guid: c8d320639f7404a86910c172f2b3cd20,
+        type: 2}
+      propertyPath: lineMask.m_Bits
+      value: 4294963967
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d320639f7404a86910c172f2b3cd20, type: 2}
@@ -827,7 +841,7 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1
+  m_Radius: 1.75
 --- !u!1 &1752981908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1039,7 +1053,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98cf492a1e9b041e090b8aff802d5d97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1670559561}
+  targetCameraSize: 1
+  zoomSpeed: 1
 --- !u!1 &1854064637
 GameObject:
   m_ObjectHideFlags: 0
