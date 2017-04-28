@@ -16,6 +16,8 @@ namespace _Passive
         public GameObject LargeLine;
 
 
+        private bool hasANewLineBeenSpawned = false;
+
         private Coroutine hazardcoroutine;
         private HazardGenerator _upcomingHazard;
         private float _hazardSpawnSeed;
@@ -38,6 +40,8 @@ namespace _Passive
                 Vector3 Endpoint = (Vector3) lastLine.GetComponent<Line>().Midpoint() + (Vector3) other.offset; //determines the right edge of the current line
                 GameObject nextLine = RandomLineSpawn(Endpoint);
 
+                hasANewLineBeenSpawned = true;
+
                 nextLine.transform.position = new Vector3
 
                 (nextLine.transform.position.x + nextLine.GetComponent<Line>().LeftDistanceFromMiddle(),
@@ -48,6 +52,31 @@ namespace _Passive
                 _upcomingHazard.WhatAreWeSpawning();
                 _upcomingHazard.Spawning(nextLine.GetComponent<Line>().Midpoint());
 
+        }
+
+        void OnTriggerExit2D(Collider2D other)
+        {
+            if (!hasANewLineBeenSpawned)
+            {
+                Vector3 Endpoint = (Vector3) lastLine.GetComponent<Line>().Midpoint() + (Vector3) other.offset; //determines the right edge of the current line
+                GameObject nextLine = RandomLineSpawn(Endpoint);
+
+                hasANewLineBeenSpawned = true;
+
+                nextLine.transform.position = new Vector3
+
+                (nextLine.transform.position.x + nextLine.GetComponent<Line>().LeftDistanceFromMiddle(),
+                    nextLine.transform.position.y, nextLine.transform.position.z);
+
+                Lines.Add(nextLine); //adds a reference of that new line to our list
+                Management(); //immediately calls management method to check number of elements in list
+                _upcomingHazard.WhatAreWeSpawning();
+                _upcomingHazard.Spawning(nextLine.GetComponent<Line>().Midpoint());
+            }
+            else
+            {
+                hasANewLineBeenSpawned = false;
+            }
         }
 
         GameObject RandomLineSpawn(Vector3 spawnPosition) //Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we can

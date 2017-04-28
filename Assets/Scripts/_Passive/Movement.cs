@@ -10,12 +10,12 @@ public class Movement : MonoBehaviour {
 
 
 
-	void Start () 
+	protected virtual void Start ()
 	{
 		rb2D = GetComponent <Rigidbody2D> ();
 	}
 		
-	void FixedUpdate () 
+	protected virtual void FixedUpdate ()
 	{
 		rb2D.MovePosition (rb2D.position + Vector2.left * speed * Time.fixedDeltaTime); //we access the rigidbody component of the line, and then immediately move its position 
 																						// by some value to the left, which is multiplied by a constant and time scalar, fixedDetaTime.

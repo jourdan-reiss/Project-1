@@ -437,6 +437,16 @@ Prefab:
       propertyPath: colliderMask.m_Bits
       value: 4294967039
       objectReference: {fileID: 0}
+    - target: {fileID: 114000011569261054, guid: 853386a432d314f2d8c47b415d050657,
+        type: 2}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 50000011912783816, guid: 853386a432d314f2d8c47b415d050657,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 853386a432d314f2d8c47b415d050657, type: 2}
   m_IsPrefabParent: 0
@@ -584,57 +594,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1528289553}
---- !u!1001 &1550623190
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4000010454286874, guid: c8d320639f7404a86910c172f2b3cd20, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.7791556
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000010454286874, guid: c8d320639f7404a86910c172f2b3cd20, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.42
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000010454286874, guid: c8d320639f7404a86910c172f2b3cd20, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000010454286874, guid: c8d320639f7404a86910c172f2b3cd20, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000010454286874, guid: c8d320639f7404a86910c172f2b3cd20, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000010454286874, guid: c8d320639f7404a86910c172f2b3cd20, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000010454286874, guid: c8d320639f7404a86910c172f2b3cd20, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000010454286874, guid: c8d320639f7404a86910c172f2b3cd20, type: 2}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1000011145634208, guid: c8d320639f7404a86910c172f2b3cd20, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012700881626, guid: c8d320639f7404a86910c172f2b3cd20,
-        type: 2}
-      propertyPath: lineMask.m_Bits
-      value: 4294963967
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: c8d320639f7404a86910c172f2b3cd20, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1555475375
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,7 +718,7 @@ GameObject:
   - 114: {fileID: 1601589510}
   m_Layer: 8
   m_Name: TriggerZone
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -770,8 +729,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1601589506}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.5, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -788,9 +747,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 3.75, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 4}
+  m_Size: {x: 0.7, y: 4}
 --- !u!114 &1601589509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1053,8 +1012,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98cf492a1e9b041e090b8aff802d5d97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCameraSize: 1
-  zoomSpeed: 1
+  targetCameraSize: 1.5
+  zoomSpeed: 0.5
 --- !u!1 &1854064637
 GameObject:
   m_ObjectHideFlags: 0

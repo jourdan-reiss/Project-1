@@ -4,12 +4,7 @@ using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
-/* In this class, I aim to:
 
--communicate with the game manager if the player is still alive
--play set animations (Phase II)
-
-*/
     public float speed;
     public float thrust;
 
@@ -68,11 +63,9 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.GetComponent<Hazards>())
         {
-            cameraController.DeactivateZoomMethod();
-
-
             if (_isThePlayerStillAlive)
             {
+                cameraController.DeactivateZoomMethod();
                 Debug.Log("Our hero lives on!");
             }
 
@@ -91,7 +84,6 @@ public class Player : MonoBehaviour
         {
             Debug.Log("Player should be knocked off, we'll play an animation.");
             gameManager.PlayerHasBeenHit();
-            cameraController.DeactivateZoomMethod();
         }
     }
 }
