@@ -51,6 +51,7 @@ namespace _Passive
                 Management(); //immediately calls management method to check number of elements in list
                 _upcomingHazard.WhatAreWeSpawning();
                 _upcomingHazard.Spawning(nextLine.GetComponent<Line>().Midpoint());
+                Debug.Log("we have instantiated a new line!");
 
         }
 
@@ -58,6 +59,7 @@ namespace _Passive
         {
             if (!hasANewLineBeenSpawned)
             {
+                Debug.Log("A line did not spawn");
                 Vector3 Endpoint = (Vector3) lastLine.GetComponent<Line>().Midpoint() + (Vector3) other.offset; //determines the right edge of the current line
                 GameObject nextLine = RandomLineSpawn(Endpoint);
 

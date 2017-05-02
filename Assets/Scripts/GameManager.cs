@@ -22,7 +22,13 @@ public class GameManager : MonoBehaviour
     private bool _gameOver = false;
     private bool inCooldown;
 
-    private int score;
+
+    public static int score;
+    public static int playerDeathCount = 0;
+    public static float distanceTravelled;
+    public static int difficultyAdditive;
+
+
     private Player player;
     private Vector2 pointerPosition;
     private IEnumerator coroutine;
@@ -50,30 +56,19 @@ public class GameManager : MonoBehaviour
         StartCoroutine(coroutine);
 
         score = 0;
+
+        Debug.Log(playerDeathCount);
     }
 
 
-    /*void Update ()
-	{
-		pointerPosition = Input.mousePosition;
-	    if (inCooldown == false)
-	    {
-	        if (Input.GetButtonDown("Fire1"))
-	            WavePrepare();
-	        if (Input.GetButton("Fire1"))
-	        {
-	            currentWave.transform.position = WorldPosition();
-	            currentWave.transform.position = new Vector3(Mathf.Clamp(currentWave.transform.position.x, -1.45f, 3.4f),
-	                -0.42f, currentWave.transform.position.z);
-	        }
-	        if (Input.GetButtonUp("Fire1"))
-	        {
-	            currentWave.SetSolid();
-	            currentWave.Attach();
-	            StartCoroutine(coroutine);
-	        }
-	    }
-	}*/
+    void Update ()
+    {
+        distanceTravelled = Time.timeSinceLevelLoad;
+        if ((int)distanceTravelled % 100 == 0)
+        {
+            difficultyAdditive += 1;
+        }
+    }
 
     IEnumerator WaveCreationSequence()
 		/*This is a three-stage process which checks for each stage of a button press and does specific things
@@ -109,6 +104,10 @@ public class GameManager : MonoBehaviour
     {
         score += 1;
         scoreText.text = "Score: " + score.ToString();
+        if (score % 20 == 0)
+        {
+            difficultyAdditive += 1;
+        }
     }
 
     Vector3 WorldPosition ()
@@ -138,6 +137,7 @@ public class GameManager : MonoBehaviour
 	void Restart ()
 	{
 			SceneManager.LoadScene (0);
+	        distanceTravelled = 0f;
 	}
 
 
@@ -147,6 +147,7 @@ public class GameManager : MonoBehaviour
         if (_gameOver)
         {
             Debug.Log("...Game Over");
+            playerDeathCount += 1;
             gameOverMenu.SetActive(true);
             Time.timeScale = 0f;
 
