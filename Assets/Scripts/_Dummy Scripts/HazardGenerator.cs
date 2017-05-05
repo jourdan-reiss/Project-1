@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography;
+using Random = UnityEngine.Random;
 
 
 public class HazardGenerator : MonoBehaviour
@@ -57,7 +58,7 @@ public class HazardGenerator : MonoBehaviour
             int increasingFactor = GameManager.difficultyAdditive;
 
 
-            if (comparePlayerDeath >= (int) playerDeaths)
+            /*if (comparePlayerDeath >= (int) playerDeaths)
             {
                 if (0f <= _hazardSpawnSeed && _hazardSpawnSeed <= 0.3f)
                 {
@@ -100,82 +101,75 @@ public class HazardGenerator : MonoBehaviour
                 }
             }
 
-            if (objects.Count == maxObjects)
+
+            }*/
+
+            if (objects.Count < maxObjects)
+
             {
-                if (objects[objects.Count - 1] == null && objects[objects.Count - 2] == null &&
-                    objects[objects.Count - 3] == null)
-                {
-                    Debug.Log("No object has been spawned 3 times in a row.");
-
-                    if (_hazardSpawnSeed <= 0.4f)
+                    if (0f <= _hazardSpawnSeed && _hazardSpawnSeed <= 0.4f)
+                    {
+                        newObstacle = null;
+                    }
+                    else if (_hazardSpawnSeed <= 0.65f)
                     {
                         newObstacle = listOfObstacles[0];
                     }
-                    else if (_hazardSpawnSeed > 0.4f)
+                    else if (_hazardSpawnSeed > 0.65f)
                     {
                         newObstacle = listOfObstacles[1];
                     }
                     Debug.Log(newObstacle);
-
-                    objects.Add(newObstacle);
-                }
-
-                if (objects[objects.Count - 1] != null && objects[objects.Count - 1].GetComponent<Collectables>() &&
-                    objects[objects.Count - 2].GetComponent<Collectables>() &&
-                    objects[objects.Count - 3].GetComponent<Collectables>())
-                {
-                    Debug.Log("A collectible has been spawned 3 times in a row.");
-
-                    if (_hazardSpawnSeed <= 0.4f)
-                    {
-                        newObstacle = null;
-                    }
-                    else if (_hazardSpawnSeed > 0.4f)
-                    {
-                        newObstacle = listOfObstacles[1];
-                    }
-                    Debug.Log(newObstacle);
-
-                    objects.Add(newObstacle);
-                }
-
-                if (objects[objects.Count - 1] != null && objects[objects.Count - 1].GetComponent<Hazards>() &&
-                    objects[objects.Count - 2].GetComponent<Hazards>() &&
-                    objects[objects.Count - 3].GetComponent<Hazards>())
-                {
-                    Debug.Log("A hazard has been spawned 3 times in a row.");
-
-                    if (_hazardSpawnSeed <= 0.4f)
-                    {
-                        newObstacle = null;
-                    }
-                    else if (_hazardSpawnSeed > 0.4f)
-                    {
-                        newObstacle = listOfObstacles[0];
-                    }
-                    Debug.Log(newObstacle);
-
                     objects.Add(newObstacle);
 
-                }
             }
 
-            else
+            else if (objects.Count == maxObjects)
             {
-                if (0f <= _hazardSpawnSeed && _hazardSpawnSeed <= 0.4f)
+                Debug.Log("We now have " + maxObjects + " objects in our scene.");
+
+                if(objects.GetRange(0, 3).Contains(null))
                 {
-                    newObstacle = null;
+                    if (_hazardSpawnSeed <= 0.4f)
+                    {
+                        newObstacle = listOfObstacles[0];
+                    }
+                    else if (_hazardSpawnSeed > 0.4f)
+                    {
+                        newObstacle = listOfObstacles[1];
+                    }
+                    Debug.Log(newObstacle);
+
+                    objects.Add(newObstacle);
                 }
-                else if (_hazardSpawnSeed <= 0.65f)
+                else if (objects.GetRange(0, 3).Contains(listOfObstacles[0]))
                 {
-                    newObstacle = listOfObstacles[0];
+                    if (_hazardSpawnSeed <= 0.4f)
+                    {
+                        newObstacle = null;
+                    }
+                    else if (_hazardSpawnSeed > 0.4f)
+                    {
+                        newObstacle = listOfObstacles[1];
+                    }
+                    Debug.Log(newObstacle);
+
+                    objects.Add(newObstacle);
                 }
-                else if (_hazardSpawnSeed > 0.65f)
+                else if (objects.GetRange(0, 3).Contains(listOfObstacles[1]))
                 {
-                    newObstacle = listOfObstacles[1];
+                    if (_hazardSpawnSeed <= 0.4f)
+                    {
+                        newObstacle = null;
+                    }
+                    else if (_hazardSpawnSeed > 0.4f)
+                    {
+                        newObstacle = listOfObstacles[0];
+                    }
+                    Debug.Log(newObstacle);
+
+                    objects.Add(newObstacle);
                 }
-                Debug.Log(newObstacle);
-                objects.Add(newObstacle);
             }
 
 
@@ -191,6 +185,7 @@ public class HazardGenerator : MonoBehaviour
 
             if (objects.Count >= maxObjects)
             {
+
                 objects.RemoveRange(0, difference);
             }
         }

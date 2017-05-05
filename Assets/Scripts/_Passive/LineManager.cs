@@ -48,14 +48,13 @@ namespace _Passive
                 nextLine.transform.position.y, nextLine.transform.position.z);
 
                 Lines.Add(nextLine); //adds a reference of that new line to our list
-                Management(); //immediately calls management method to check number of elements in list
-                _upcomingHazard.WhatAreWeSpawning();
+                Management(); //immediately calls management method to check number of elements in list.
                 _upcomingHazard.Spawning(nextLine.GetComponent<Line>().Midpoint());
                 Debug.Log("we have instantiated a new line!");
 
         }
 
-        void OnTriggerExit2D(Collider2D other)
+        /*void OnTriggerExit2D(Collider2D other)
         {
             if (!hasANewLineBeenSpawned)
             {
@@ -79,7 +78,7 @@ namespace _Passive
             {
                 hasANewLineBeenSpawned = false;
             }
-        }
+        }*/
 
         GameObject RandomLineSpawn(Vector3 spawnPosition) //Here, our method returns a game object at a specific position in 3D space, called SpawnPosition. This is so we can
                                                           //instantiate our game object at a position specified above in our OnTriggerEnter2D method.
