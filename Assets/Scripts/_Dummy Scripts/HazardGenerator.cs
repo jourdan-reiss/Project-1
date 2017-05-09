@@ -20,18 +20,18 @@ public class HazardGenerator : MonoBehaviour
         public GameObject Obstacles;
         private float _hazardSpawnSeed;
 
-
+/*
         public enum GameStates
         {
             playerDiesOften = 5,
             scoreThreshold = 20,
             distanceThreshold = 100
-        };
+        };*/
 
 
-        private int isScoreMultipleof20 = GameManager.score;
+      /*  private int isScoreMultipleof20 = GameManager.score;
         private int isDistanceMultipleof100 = (int)GameManager.distanceTravelled;
-        private int comparePlayerDeath = GameManager.playerDeathCount;
+        private int comparePlayerDeath = GameManager.playerDeathCount;*/
 
 
         public int maxObjects;
@@ -51,11 +51,11 @@ public class HazardGenerator : MonoBehaviour
             GameObject newObstacle = null;
             _hazardSpawnSeed = Random.value;
 
-            GameStates scoreMultiplier = GameStates.scoreThreshold;
+            /*GameStates scoreMultiplier = GameStates.scoreThreshold;
             GameStates playerDeaths = GameStates.playerDiesOften;
-            GameStates distanceMultiplier = GameStates.distanceThreshold;
+            GameStates distanceMultiplier = GameStates.distanceThreshold;*/
 
-            int increasingFactor = GameManager.difficultyAdditive;
+//            int increasingFactor = GameManager.difficultyAdditive;
 
 
             /*if (comparePlayerDeath >= (int) playerDeaths)

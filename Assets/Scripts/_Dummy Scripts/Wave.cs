@@ -16,11 +16,15 @@ public class Wave : MonoBehaviour {
 
 	//Turns the outline and solid wave objects on and off. Both cannot be on at the same time.
 
+
 	public void SetSolid ()
 	{
 		wave.SetActive (true);
 		outline.SetActive (false);
 	}
+
+
+
 
 	public void Attach ()
 	{

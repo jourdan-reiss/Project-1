@@ -6,7 +6,7 @@ using System.Collections;
     public class Collectables : InteractiveObjects
     {
 
-        public GameManager gameManager;
+        private GameManager gameManager;
 
         void Awake()
         {

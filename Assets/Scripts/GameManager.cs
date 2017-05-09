@@ -33,6 +33,9 @@ public class GameManager : MonoBehaviour
     private Vector2 pointerPosition;
     private IEnumerator coroutine;
 
+
+
+    public float holdDownTimer;
     public float coolDownTimer;
     public Text scoreText;
     public Button restartButton;
@@ -80,21 +83,41 @@ public class GameManager : MonoBehaviour
     {
         while (true)
         {
+
             while (!Input.GetButtonDown("Fire1"))
             {
                 yield return null;
             }
+
+
             WavePrepare();
+            holdDownTimer = Time.time;
+
+
             while (Input.GetButton("Fire1"))
             {
                 currentWave.transform.position = WorldPosition();
                 currentWave.transform.position = new Vector3(
                     Mathf.Clamp(currentWave.transform.position.x, -1.45f, 3.4f),
                     -0.42f, currentWave.transform.position.z);
+                if (Time.time - holdDownTimer >= 1.5f)
+                {
+                    currentWave.gameObject.transform.localScale = new Vector3(1.5F, 1.5F, 0);
+                }
+
+                if (Time.time - holdDownTimer >= 2.5f)
+                {
+                    currentWave.gameObject.transform.localScale = new Vector3(2F, 2F, 0F);
+                }
                 yield return null;
             }
+
+
+
+
             currentWave.SetSolid();
             currentWave.Attach();
+            holdDownTimer = 0f;
 
             yield return new WaitForSeconds(coolDownTimer);
         }

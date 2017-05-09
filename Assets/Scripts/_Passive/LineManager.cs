@@ -16,7 +16,7 @@ namespace _Passive
         public GameObject LargeLine;
 
 
-        private bool hasANewLineBeenSpawned = false;
+//        private bool hasANewLineBeenSpawned = false;
 
         private Coroutine hazardcoroutine;
         private HazardGenerator _upcomingHazard;
@@ -40,7 +40,7 @@ namespace _Passive
                 Vector3 Endpoint = (Vector3) lastLine.GetComponent<Line>().Midpoint() + (Vector3) other.offset; //determines the right edge of the current line
                 GameObject nextLine = RandomLineSpawn(Endpoint);
 
-                hasANewLineBeenSpawned = true;
+
 
                 nextLine.transform.position = new Vector3
 
