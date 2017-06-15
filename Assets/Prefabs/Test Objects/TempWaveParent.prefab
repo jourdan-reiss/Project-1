@@ -100,7 +100,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011145634208}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7791556, y: -0.42, z: 0}
+  m_LocalPosition: {x: 0.7791556, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -129,7 +129,7 @@ Transform:
   m_GameObject: {fileID: 1000010382385822}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4000010955122674}
@@ -143,7 +143,7 @@ Transform:
   m_GameObject: {fileID: 1000011095824162}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4000014011889772}
@@ -196,11 +196,11 @@ PolygonCollider2D:
     - - {x: -0.36953375, y: 0.4508087}
       - {x: -0.21434076, y: 0.57102156}
       - {x: 0.1883145, y: 0.70859313}
-      - {x: 0.59366894, y: 0.6312056}
+      - {x: 0.71853304, y: 0.71444887}
       - {x: 0.44417426, y: 0.48070312}
-      - {x: 0.2242691, y: 0.29331368}
-      - {x: 0.5950484, y: -0.010810295}
-      - {x: -0.6744397, y: -0.014006295}
+      - {x: 0.2797644, y: 0.08520609}
+      - {x: 0.8725252, y: -0.2605398}
+      - {x: -0.86867315, y: -0.24986199}
       - {x: -0.4831555, y: 0.30542734}
 --- !u!114 &114000010756862378
 MonoBehaviour:

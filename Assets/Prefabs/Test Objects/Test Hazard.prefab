@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000014162561592}
   - 212: {fileID: 212000010244657922}
   m_Layer: 12
-  m_Name: New Sprite
+  m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,11 +35,11 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000011168181858}
-  - 61: {fileID: 61000013434217428}
   - 114: {fileID: 114000011454611306}
   - 50: {fileID: 50000012945023224}
   - 114: {fileID: 114000012148171542}
   - 114: {fileID: 114000010896322298}
+  - 58: {fileID: 58000014032977618}
   m_Layer: 12
   m_Name: Test Hazard
   m_TagString: Hazards
@@ -68,7 +68,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012246629890}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -91,8 +91,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
---- !u!61 &61000013434217428
-BoxCollider2D:
+--- !u!58 &58000014032977618
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -102,9 +102,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0.00039296222, y: 0.16333336}
+  m_Offset: {x: 0, y: 0.225}
   serializedVersion: 2
-  m_Size: {x: 0.24834633, y: 0.2886936}
+  m_Radius: 0.25
 --- !u!114 &114000010896322298
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567adcde88385458288bf4998ec35be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.85
+  speed: 4.5
 --- !u!212 &212000010244657922
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -169,7 +169,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 156784673
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 53518376e04ba42c3a085f1b45cd0176, type: 3}
-  m_Color: {r: 0.0484429, g: 0.41176468, b: 0.06598252, a: 1}
+  m_Sprite: {fileID: 21300000, guid: c30282ed3de1a4e4599e49cb860fde06, type: 3}
+  m_Color: {r: 0.99264705, g: 1, b: 0.993002, a: 1}
   m_FlipX: 0
   m_FlipY: 0

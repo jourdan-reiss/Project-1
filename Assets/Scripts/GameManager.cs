@@ -99,7 +99,7 @@ public class GameManager : MonoBehaviour
                 currentWave.transform.position = WorldPosition();
                 currentWave.transform.position = new Vector3(
                     Mathf.Clamp(currentWave.transform.position.x, -1.45f, 3.4f),
-                    -0.42f, currentWave.transform.position.z);
+                    -0.65f, currentWave.transform.position.z);
                 if (Time.time - holdDownTimer >= 1.5f)
                 {
                     currentWave.gameObject.transform.localScale = new Vector3(1.5F, 1.5F, 0);

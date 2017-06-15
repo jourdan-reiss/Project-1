@@ -359,7 +359,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000013703756690, guid: 853386a432d314f2d8c47b415d050657, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -2.39
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 4000013703756690, guid: 853386a432d314f2d8c47b415d050657, type: 2}
       propertyPath: m_LocalPosition.y
@@ -689,7 +689,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 3.712289, y: 0}
+  m_Offset: {x: 7.5, y: 0}
   serializedVersion: 2
   m_Size: {x: 0.7754216, y: 4}
 --- !u!114 &1601589509
@@ -703,7 +703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc68abb4f91124e0e86790e14d057923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxLines: 8
+  maxLines: 5
   initialSpawnTimer: 2
   SmallLine: {fileID: 1000010751764714, guid: aef1a6c18e556414195820cd04514624, type: 2}
   RegularLine: {fileID: 1000010803573274, guid: 1dd389dade0fe417cb744545c8d2327b,
@@ -897,7 +897,7 @@ Camera:
   far clip plane: 1000
   field of view: 9
   orthographic: 1
-  orthographic size: 2
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
